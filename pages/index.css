@@ -1,4 +1,8 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+* {
+  box-sizing: border-box;
+}
+
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -201,11 +205,15 @@ template {
 .page__wrapper {
   margin: 0 auto 0;
   padding: 0;
-  max-width: 1440px;
   position: relative;
-  background-image: url(../images/back_intro_green.png);
+  background-image: url(../images/back_intro_green.png), url(../../../images/back_intro_red.png);
   background-repeat: no-repeat;
-  background-position: right 0 top 100px;
+  background-position: right 100px, left 320px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -421,9 +429,9 @@ template {
 .content__intro {
   margin: 0;
   padding: 120px 130px 192px;
-  background-image: url(../../../images/back_intro_red.png), url(../../../images/back_intro_yellow.png);
+  background-image: url(../../../images/back_intro_yellow.png);
   background-repeat: no-repeat;
-  background-position: left 0 top 38%, left 60% top 399px;
+  background-position: left 60% top 399px;
   background-size: auto auto;
   position: relative;
 }
