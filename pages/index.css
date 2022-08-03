@@ -6,7 +6,6 @@ html {
 
 body {
   margin: 0;
-  background: #000;
 }
 
 main {
@@ -204,14 +203,14 @@ template {
   padding: 0;
   max-width: 1440px;
   position: relative;
-  background-image: url(../../../images/back_intro_green.png);
+  background-image: url(../images/back_intro_green.png);
   background-repeat: no-repeat;
   background-position: right 0 top 100px;
 }
 
 @media screen and (max-width: 768px) {
   .page__wrapper {
-    background-image: url(../../../images/back_intro_green_mobile.png);
+    background-image: url(../images/back_intro_green_mobile.png);
   }
 }
 .page__header {
