@@ -94,3 +94,6 @@ function openSubmitPopup(bool) {
 }
 
 //button.addEventListener('mouseup', openSubmitPopup);
+
+
+	$('.string').liMarquee();
