@@ -72,7 +72,7 @@ const popupElementOffer = document.querySelector('.popup_type_offer');
 const closeButtonPopupOffer = popupElementOffer.querySelector('.popup__close-icon');
 const getButtonPopupOffer = popupElementOffer.querySelector('.popup__get-button');
 
-runningLineElement.addEventListener('click', () => openPopup(popupElementOffer));
+//runningLineElement.addEventListener('click', () => openPopup(popupElementOffer));
 closeButtonPopupOffer.addEventListener('click', () => closePopup(popupElementOffer));
 specialOfferElement.addEventListener('click', () => openPopup(popupElementOffer));
 getButtonPopupOffer.addEventListener('click', () => closePopup(popupElementOffer));
