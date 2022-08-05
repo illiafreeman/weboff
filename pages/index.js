@@ -99,3 +99,21 @@ function openSubmitPopup(bool) {
 	$('.string').liMarquee({
 		hoverStop: false
 	});
+	
+	/*scroll to top*/
+	var scrollTop = $(".scrollTop");
+	$(window).scroll(function() {
+		var topPos = $(this).scrollTop();
+		if (topPos > 500) {
+			$(scrollTop).addClass('vis');
+		} else {
+			$(scrollTop).removeClass('vis');
+		}
+	});
+	$(scrollTop).click(function() {
+		$('html, body').animate({
+			scrollTop: 0
+		}, 800);
+		return false;
+	});
+	/*end scroll to top*/
