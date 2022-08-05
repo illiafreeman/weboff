@@ -216,6 +216,62 @@ template {
   margin: 0 auto !important;
 }
 
+/*Plugin CSS*/
+.str_wrap {
+  overflow: hidden;
+  width: 100%;
+  font-size: 12px;
+  line-height: 16px;
+  position: relative;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  white-space: nowrap;
+}
+
+.str_move {
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: move;
+}
+
+.str_move_clone {
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
+.str_vertical .str_move_clone {
+  left: 0;
+  top: 100%;
+}
+
+.str_down .str_move_clone {
+  left: 0;
+  bottom: 100%;
+}
+
+.str_vertical .str_move,
+.str_down .str_move {
+  white-space: normal;
+  width: 100%;
+}
+
+.str_static .str_move,
+.no_drag .str_move,
+.noStop .str_move {
+  cursor: inherit;
+}
+
+.str_wrap img {
+  max-width: none !important;
+}
+
 @media screen and (max-width: 768px) {
   .page__wrapper {
     background-image: url(../images/back_intro_green_mobile.png);
@@ -1584,6 +1640,9 @@ template {
   line-height: 34px;
   color: #fff;
 }
+.projects__link:hover .projects__grid-image {
+  transform: scale(1.05);
+}
 
 @media screen and (max-width: 768px) {
   .projects__link {
@@ -1610,6 +1669,7 @@ template {
   width: 100%;
   max-width: 380px;
   border-radius: 40px;
+  transition: all 0.2s ease-in-out;
 }
 
 @media screen and (max-width: 768px) {
