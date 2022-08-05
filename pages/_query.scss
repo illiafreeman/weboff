@@ -48,7 +48,10 @@
         margin: 20px 0 0 6.3%
     }
     .header__menu {
-        display: none
+        display: none;
+        &_visible{
+            display: inline-block;
+        }
     }
     .header__menu-list {
         display: flex;
@@ -79,7 +82,7 @@
         margin-bottom: 10px
     }
     .intro__header_display-none {
-        visibility: visible
+        visibility: hidden;
     }
     .content__intro {
         padding: 120px 6.3% 153px;
@@ -461,6 +464,139 @@
         background-image: url(../images/back_footer_red_mobile.png), url(../images/back_footer_green_mobile.png);
         background-position: right 0 top 140px, left 0 bottom 0
     }
+    .footer__form {
+        margin: 0 6.3% 0;
+        border-top: 0;
+        flex-direction: column
+    }
+    .form__description {
+        border-right: 0;
+        padding: 0
+    }
+    .form__description-title {
+        font-size: 24px;
+        line-height: 34px;
+        margin-top: 62px;
+        margin-bottom: 10px
+    }
+    .form__description-text {
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 246px
+    }
+    .form__container {
+        margin-top: 62px;
+        margin-left: 0;
+        margin-bottom: 0
+    }
+    .form__container-title {
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 28px;
+        max-width: 235px
+    }
+    .form__container-inputs {
+        max-width: 280px
+    }
+    .form__input-field {
+        width: auto;
+        min-height: 36px;
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 20px;
+        padding: 0 18px 0;
+        min-width: 280px;
+        box-sizing: border-box
+    }
+    .form__input-field::placeholder {
+        font-size: 14px;
+        line-height: 16px
+    }
+    .form__input-label {
+        font-size: 12px;
+        line-height: 14px
+    }
+    .form__input-field_type_text {
+        min-height: 180px;
+        padding-top: 18px;
+        border-radius: 20px
+    }
+    .form__send-button {
+        font-size: 16px;
+        line-height: 18px;
+        min-width: 280px;
+        min-height: 52px;
+        padding: 0 49px;
+        margin-top: 42px
+    }
+    .footer__info {
+        margin-top: 52px
+    }
+    .info__telegram-link {
+        margin-right: 12px
+    }
+    .info__copyright {
+        padding-bottom: 42px;
+        font-size: 12px;
+        line-height: 14px;
+        margin-top: 28px
+    }
+    .info__telegram-icon {
+        width: 20px;
+        height: 20px
+    }
+    .info__vk-icon {
+        width: 20px;
+        height: 20px
+    }
+    .popup__window {
+        width: 280px;
+        min-height: 297px;
+        border-radius: 40px;
+        margin-left: 6.3%;
+        margin-right: 6.3%
+    }
+    .popup__close-icon {
+        width: 14px;
+        height: 14px;
+        top: 22px;
+        right: 22px
+    }
+    .popup__title {
+        font-size: 30px;
+        line-height: 34px;
+        max-width: 180px;
+        margin-top: 46px
+    }
+    .popup__text {
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 237px;
+        margin-top: 10px
+    }
+    .popup__get-button {
+        min-width: 183px;
+        font-size: 16px;
+        line-height: 18px;
+        padding: 17px 0;
+        border: 2px solid #d82857;
+        border-radius: 26px
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
