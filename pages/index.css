@@ -442,6 +442,38 @@ template {
   visibility: hidden;
 }
 
+.client {
+  padding: 0 130px 105px;
+}
+.client h2 {
+  font-size: 78px;
+  line-height: 88px;
+  text-transform: uppercase;
+  margin: 0 0 62px;
+}
+.client__wrap {
+  display: flex;
+  gap: 20px;
+}
+.client__item {
+  width: 33.333%;
+}
+.client__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFD508;
+  margin: 40px 0 40px;
+  padding: 0 20px;
+}
+.client__desc {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  padding: 0 20px;
+}
+
 .string {
   width: 100%;
   height: 68px;

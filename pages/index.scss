@@ -452,6 +452,50 @@ $transition: all 0.2s ease-in-out;
 .intro__text_display-none {
     visibility: hidden
 }
+.client{
+    padding: 0 130px 105px;
+    h2{
+        font-size: 78px;
+        line-height: 88px;
+        text-transform: uppercase;
+        margin: 0 0 62px;
+    }
+    &__wrap{
+        display: flex;
+        gap: 20px;
+    }
+    &__item{
+        width: 33.333%;
+    }
+    &__pic{
+
+    }
+    &__title{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFD508;
+        margin: 40px 0 40px;
+        padding: 0 20px;
+    }
+    &__desc{
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        padding: 0 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 .string{
 	width: 100%;
