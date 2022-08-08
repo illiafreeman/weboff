@@ -183,19 +183,6 @@ template {
     display: none
 }
 
-@font-face {
-    font-family: 'Futura PT';
-    src: url(../vendor/font/FuturaPT-Medium.woff2) format("woff2"), url(../vendor/font/FuturaPT-Medium.woff) format("woff");
-    font-weight: 500;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'Futura PT';
-    src: url(../vendor/font/FuturaPT-Bold.woff2) format("woff2"), url(../vendor/font/FuturaPT-Bold.woff) format("woff");
-    font-weight: 700;
-    font-style: normal
-}
 
 $transition: all 0.2s ease-in-out;
 
@@ -204,16 +191,9 @@ $transition: all 0.2s ease-in-out;
 
 
 
-
-
-
-
-
-
-
 .page {
     background-color: #272727;
-    font-family: 'Futura PT', Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff
 }
 
@@ -302,7 +282,7 @@ $transition: all 0.2s ease-in-out;
 
 .header__menu {
     min-width: 493px;
-    margin: 56px 130px 0 0
+    margin: 40px 130px 0 0
 }
 
 .header__menu-list {
@@ -337,7 +317,24 @@ $transition: all 0.2s ease-in-out;
     font-size: 16px;
     font-weight: 500;
     line-height: 22px;
-    opacity: .6
+    display: block;
+    position: relative;
+    &:before {
+        content: "";
+        width: 0;
+        height: 1px;
+        position: absolute;
+        bottom: -3px;
+        right: 0;
+        background: #fff;
+        transition: $transition;
+    }      
+    &:hover{
+        &:before {
+            width: 100%;
+            left: 0;
+        }
+    }
 }
 
 .header__menu-link:hover {
@@ -351,7 +348,10 @@ $transition: all 0.2s ease-in-out;
     padding: 9px 26px;
     min-width: 134px;
     min-height: 42px;
-    opacity: 1
+    opacity: 1;
+    &:before {
+        display: none;
+    }
 }
 
 .header__menu-link_bordered:hover {
@@ -410,9 +410,8 @@ $transition: all 0.2s ease-in-out;
     max-width: 748px;
     margin: 0 0 28px 0;
     padding: 0;
-    font-size: 78px;
-    font-weight: 700;
-    line-height: 88px
+    font-size: 80px;
+    line-height: 90px;
 }
 
 .intro__header_display-none {
@@ -442,11 +441,12 @@ $transition: all 0.2s ease-in-out;
     padding: 0;
     font-size: 24px;
     font-weight: 500;
-    line-height: 34px
+    line-height: 30px
 }
 
 .intro__text_bold {
-    font-weight: 700
+    font-weight: 700;
+    color: #FFD508;
 }
 
 .intro__text_display-none {
