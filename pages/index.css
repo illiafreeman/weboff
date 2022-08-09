@@ -1288,9 +1288,9 @@ template {
 .page__footer {
   padding: 0;
   margin: 0 auto 0;
-  background-image: url(../images/back_footer_green.png), url(../images/back_footer_yellow.png), url(../images/back_footer_red.png);
+  background-image: url(../images/back_footer_green.png), url(../images/back_footer_red.png);
   background-repeat: no-repeat;
-  background-position: left 0 bottom 61px, right 0 top 62px, right 0 bottom 54px;
+  background-position: left 0 top 0, right 0 bottom 0;
 }
 .page__footer .container {
   max-width: 1440px;
