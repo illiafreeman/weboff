@@ -117,3 +117,11 @@ function openSubmitPopup(bool) {
 		return false;
 	});
 	/*end scroll to top*/
+	$( window ).on( "load", function() {
+
+		if($(window).width() > 1023){
+			new WOW().init();
+		}
+		
+	});
+	
