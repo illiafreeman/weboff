@@ -458,6 +458,9 @@ template {
 .client__item {
   width: 33.333%;
 }
+.client__pic {
+  width: 100%;
+}
 .client__title {
   font-weight: 700;
   font-size: 24px;
@@ -4810,6 +4813,52 @@ template {
 @media screen and (max-width: 1280px) {
   .statystic__startup {
     margin-right: 30px;
+  }
+  .intro__header {
+    max-width: 748px;
+    margin: 0 0 28px 0;
+    padding: 0;
+    font-size: 60px;
+    line-height: 69px;
+  }
+  .statystic__startup-header, .statystic__sites-header {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .client h2, .why-us__title {
+    font-size: 60px;
+    line-height: 80px;
+  }
+  .client__title {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 30px 0 30px;
+  }
+  .client__desc {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .offer__we-offer {
+    margin: 145px 55px 145PX 118px;
+    max-width: 30%;
+    width: 30%;
+  }
+  .offer__text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .offer__title {
+    font-size: 46px;
+    line-height: 66px;
+  }
+  .header__menu {
+    margin-right: 42px;
+  }
+  .content__statystic .container, .content__intro, .client, .content__why-us .container {
+    padding: 80px 100px;
+  }
+  .offer__we-offer {
+    margin: 145px 55px 145PX 88px;
   }
 }
 @media screen and (max-width: 1023px) {
