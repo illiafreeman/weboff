@@ -977,7 +977,7 @@ template {
 .special-offer__title {
   text-align: center;
   color: #65dbbd;
-  margin: 20px auto 8px;
+  margin: 30px auto 20px;
   padding: 0;
   font-size: 32px;
   font-weight: 700;
@@ -987,10 +987,10 @@ template {
 
 .special-offer__text {
   padding: 0;
-  margin: 0 auto 20px;
+  margin: 0 auto 30px;
   font-size: 18px;
   font-weight: 500;
-  line-height: 22px;
+  line-height: 28px;
   max-width: 480px;
   text-align: center;
 }
@@ -1646,8 +1646,8 @@ template {
   }
 }
 .rotating {
-  -webkit-animation: rotating 5s linear infinite;
-  animation: rotating 5s linear infinite;
+  -webkit-animation: rotating 20s linear infinite;
+  animation: rotating 20s linear infinite;
 }
 
 /*!
@@ -4877,7 +4877,7 @@ template {
   }
   .intro__text {
     font-size: 20px;
-    line-height: 22px;
+    line-height: 31px;
   }
   .string.str_wrap .str_origin {
     height: 40px;
@@ -4914,6 +4914,7 @@ template {
   .offer__list-item {
     font-size: 16px;
     line-height: 20px;
+    margin-bottom: 22px;
   }
   .offer__empty-container-left,
 .offer__empty-container-right {
@@ -4922,11 +4923,11 @@ template {
   .why-us__grid {
     display: flex;
     flex-wrap: wrap;
-    -moz-column-gap: 0;
-         column-gap: 0;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
   }
   .why-us__grid-article {
-    width: 50%;
+    width: calc(50% - 16px);
     row-gap: 18px;
   }
   .why-us__grid {
@@ -4972,6 +4973,50 @@ template {
   }
   .stage__desc {
     padding: 0 16px 30px;
+  }
+  .content__special-offer {
+    margin: 0 14px 62px;
+  }
+  .products__title {
+    margin: 62px 0 62px 86px;
+    font-size: 46px;
+    line-height: 56px;
+  }
+  .products__money-back {
+    position: absolute;
+    top: 41px;
+    right: 49px;
+    width: 100px;
+    height: 100px;
+  }
+  .statystic__sites-grid-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .statystic__sites-grid-figures {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .products__offers {
+    margin: 0 86px;
+  }
+  .products__offer-name {
+    font-size: 20px;
+    line-height: 25px;
+    min-height: 50px;
+  }
+  .products__offer {
+    margin-left: 33px;
+    padding-right: 28px;
+    border-right: 3px solid #272727;
+  }
+  .products__price {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 16px 0 20px;
+  }
+  .products__price_crossed {
+    display: block;
   }
 }
 @media screen and (max-width: 1023px) {
