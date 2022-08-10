@@ -857,8 +857,14 @@ template {
 }
 .stage__item {
   width: 25%;
+  max-width: 25% !important;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 40px;
+  flex: 0 1 25%;
+}
+.stage__pic {
+  display: block;
+  width: 100%;
 }
 .stage__title {
   font-weight: 700;
@@ -4817,11 +4823,14 @@ template {
     font-size: 58px;
     line-height: 68px;
   }
-  .statystic__startup-header, .statystic__sites-header, .statystic__web-agency-title {
+  .statystic__startup-header,
+.statystic__sites-header,
+.statystic__web-agency-title {
     font-size: 28px;
     line-height: 38px;
   }
-  .client h2, .why-us__title {
+  .client h2,
+.why-us__title {
     font-size: 46px;
     line-height: 56px;
   }
@@ -4850,7 +4859,10 @@ template {
   .header__menu {
     margin-right: 0;
   }
-  .content__statystic .container, .content__intro, .client, .content__why-us .container {
+  .content__statystic .container,
+.content__intro,
+.client,
+.content__why-us .container {
     padding: 80px 100px;
   }
   .offer__we-offer {
@@ -4903,8 +4915,63 @@ template {
     font-size: 16px;
     line-height: 20px;
   }
-  .offer__empty-container-left, .offer__empty-container-right {
+  .offer__empty-container-left,
+.offer__empty-container-right {
     margin: 62px 0;
+  }
+  .why-us__grid {
+    display: flex;
+    flex-wrap: wrap;
+    -moz-column-gap: 0;
+         column-gap: 0;
+  }
+  .why-us__grid-article {
+    width: 50%;
+    row-gap: 18px;
+  }
+  .why-us__grid {
+    row-gap: 48px;
+  }
+  .why-us__grid-article-number {
+    height: 74px;
+  }
+  .why-us__grid-article {
+    -moz-column-gap: 0;
+         column-gap: 0;
+  }
+  .why-us__grid-article-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .why-us__grid-article-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .why-us__grid-article-text_bold {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .stage {
+    padding: 0 100px;
+  }
+  .stage h2 {
+    font-size: 46px;
+    line-height: 56px;
+    margin: 0 0 50px;
+  }
+  .stage__title {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 28px 0;
+  }
+  .stage__desc li {
+    text-align: center;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+  .stage__desc {
+    padding: 0 16px 30px;
   }
 }
 @media screen and (max-width: 1023px) {
