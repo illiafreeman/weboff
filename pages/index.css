@@ -5126,6 +5126,10 @@ template {
     display: block;
     padding: 0 0 40px;
   }
+  .info__copyright {
+    font-size: 14px;
+    line-height: 19px;
+  }
 }
 @media screen and (max-width: 1023px) {
   .statystic__startup-grid {
