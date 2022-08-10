@@ -961,10 +961,6 @@ template {
   color: #ffd508;
 }
 
-.special-offer {
-  cursor: pointer;
-}
-
 .content__special-offer {
   margin: 0 12px 62px;
   padding: 0;

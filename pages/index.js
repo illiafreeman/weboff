@@ -74,8 +74,13 @@ const getButtonPopupOffer = popupElementOffer.querySelector('.popup__get-button'
 
 //runningLineElement.addEventListener('click', () => openPopup(popupElementOffer));
 closeButtonPopupOffer.addEventListener('click', () => closePopup(popupElementOffer));
-specialOfferElement.addEventListener('click', () => openPopup(popupElementOffer));
+//specialOfferElement.addEventListener('click', () => openPopup(popupElementOffer));
 getButtonPopupOffer.addEventListener('click', () => closePopup(popupElementOffer));
+
+const myTimeout = setTimeout(() => openPopup(popupElementOffer), 10000);
+
+
+
 
 //close popup - form submit
 function openSubmitPopup(bool) {
