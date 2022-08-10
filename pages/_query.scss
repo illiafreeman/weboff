@@ -14,21 +14,21 @@
         max-width: 748px;
         margin: 0 0 28px 0;
         padding: 0;
-        font-size: 60px;
-        line-height: 69px;
+        font-size: 58px;
+        line-height: 68px;
     }
     .statystic__startup-header, .statystic__sites-header, .statystic__web-agency-title {
         font-size: 28px;
-        line-height: 36px;
+        line-height: 38px;
     }
     .client h2, .why-us__title{
-        font-size: 60px;
-        line-height: 80px;
+        font-size: 46px;
+        line-height: 56px;
     }
     .client__title {
         font-size: 18px;
         line-height: 22px;
-        margin: 30px 0 30px;
+        margin: 30px 0 20px;
     }
     .client__desc {
         font-size: 16px;
@@ -45,10 +45,10 @@
     }
     .offer__title{
         font-size: 46px;
-        line-height: 66px;
+        line-height: 56px;
     }
     .header__menu{
-        margin-right: 42px;
+        margin-right: 0;
     }
     .content__statystic .container, .content__intro, .client, .content__why-us .container {
         padding: 80px 100px;
@@ -56,8 +56,59 @@
     .offer__we-offer {
         margin: 145px 55px 145PX 88px;
     }
-
-
+    .header__logo{
+        margin-left: -10px;
+    }
+    .page__header{
+        padding: 0 100px;
+        margin-bottom: 24px;
+    }
+    .intro__text{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .string.str_wrap .str_origin {
+        height: 40px;
+        div{
+            height: 40px;
+        }
+    }
+    .string.str_wrap{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .statystic__startup-grid-figures{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .statystic__startup-grid-text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .statystic__sites-formula {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .statystic__web-agency-text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .content__statystic .container{
+        padding-bottom: 0;
+    }
+    .client{
+        //padding-bottom: 40px;
+    }
+    .content__offer {
+        margin: 0 14px;
+    }
+    .offer__list-item {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .offer__empty-container-left, .offer__empty-container-right {
+        margin: 62px 0;
+    }
 
 
 
