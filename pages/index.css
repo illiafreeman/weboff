@@ -1644,6 +1644,11 @@ template {
   animation: rotating 20s linear infinite;
 }
 
+.rotating-logo {
+  -webkit-animation: rotating 5s linear infinite;
+  animation: rotating 5s linear infinite;
+}
+
 /*!
 * animate.css - https://animate.style/
 * Version - 4.1.1
@@ -5493,7 +5498,7 @@ template {
   .content__why-us {
     padding: 63px 6.3%;
     background-image: url(../images/back_why-we_green_top_mobile.png), url(../images/back_why-we_yellow_mobile.png), url(../images/back_why-we_red_mobile.png), url(../images/back_why-we_green_bottom_mobile.png);
-    background-position: right 8.4% top 11px, left 0 top 386px, right 0 bottom 220px, left 0 bottom 0;
+    background-position: right 8.4% top 11px, left 0 top 437px, right 0 bottom 220px, left 0 bottom 0;
   }
   .why-us__title {
     font-size: 24px;
@@ -5971,5 +5976,9 @@ template {
   .client__item, .stage__item, .projects__link {
     width: 100%;
     max-width: 100% !important;
+  }
+  .why-us__grid-article-title {
+    font-size: 14px;
+    line-height: 18px;
   }
 }/*# sourceMappingURL=index.css.map */

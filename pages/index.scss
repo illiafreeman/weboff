@@ -1663,7 +1663,13 @@ to {
     -o-animation: rotating 20s linear infinite;
     animation: rotating 20s linear infinite;
 }
-
+.rotating-logo {
+    -webkit-animation: rotating 5s linear infinite;
+    -moz-animation: rotating 5s linear infinite;
+    -ms-animation: rotating 5s linear infinite;
+    -o-animation: rotating 5s linear infinite;
+    animation: rotating 5s linear infinite;
+}
 
 
 
