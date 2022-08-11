@@ -5886,4 +5886,43 @@ template {
     -moz-column-gap: 10px;
          column-gap: 10px;
   }
+  .stage h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .stage {
+    padding: 0 20px;
+  }
+  .stage__list, .projects__grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .stage__item, .projects__link {
+    width: 70%;
+    max-width: 70% !important;
+    flex: 0 0 70%;
+  }
+  .content__special-offer {
+    margin: 0 5px 40px;
+  }
+  .content__products, .projects__container {
+    margin: 0 5px;
+  }
+  .products__button {
+    margin: 4px 6.3% 32px;
+    max-width: none;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 17px 26px;
+  }
+  .content__team {
+    padding: 0 20px 62px;
+  }
+  .content__team .container {
+    padding: 0;
+  }
+  .team__picture-text-name {
+    font-size: 16px;
+    height: auto;
+  }
 }/*# sourceMappingURL=index.css.map */
