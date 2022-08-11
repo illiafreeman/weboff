@@ -359,16 +359,10 @@ template {
   height: 23px;
   background-color: transparent;
   border: none;
-  background-image: url(../../../images/Burger.png);
+  background-image: url(../images/burger.svg);
   background-repeat: no-repeat;
   top: 23px;
   right: 6.3%;
-}
-
-.header__burger:hover {
-  background-image: url(../../../images/Burger_hover.png);
-  cursor: pointer;
-  transition: background-image 0.3s;
 }
 
 .header__burger_invisible {
