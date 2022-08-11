@@ -1223,6 +1223,73 @@
         border: 2px solid #d82857;
         border-radius: 26px
     }
+    .header__logo{
+        margin-left: 0;
+    }
+    .content__intro {
+        padding: 120px 20px 153px;
+    }
+    .page__header {
+        padding: 0 20px;
+    }
+    .content__statystic {
+        padding: 62px 20px;
+    }
+    .content__statystic .container {
+        padding: 0;
+    }
+    .running-line {
+        border: 0;
+    }
+    .client{
+        padding: 60px 20px;
+    }
+    .client h2, .why-us__title {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 40px;
+    }
+    .client__wrap {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .client__item {
+        width: 70%;
+    }
+    .client__title {
+        margin: 15px 0;
+    }
+    .content__offer {
+        margin: 0 5px;
+    }
+    .offer__we-offer {
+        width: 100%;
+        margin: 0;
+        max-width: 100%;
+        padding: 20px;
+    }
+    .offer__title{
+        margin: 10px 0 20px;
+    }
+    .content__why-us .container{
+        padding: 0;
+    }
+    .why-us__grid{
+        flex-direction: column;
+    }
+    .why-us__grid-article {
+        width: 100%;
+        row-gap: 0;
+    }
+    .why-us__grid-article-title{
+        margin-bottom: 10px;
+    }
+    .why-us__grid-article {
+        column-gap: 10px;
+    }
+
 
 
 
