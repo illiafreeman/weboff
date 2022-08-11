@@ -376,7 +376,7 @@ template {
   height: 23px;
   background-color: transparent;
   border: none;
-  background-image: url(../../../images/close_button.png);
+  background-image: url(../images/close.svg);
   background-repeat: no-repeat;
   top: 23px;
   right: 6.3%;
@@ -5918,5 +5918,36 @@ template {
   .team__picture-text-name {
     font-size: 16px;
     height: auto;
+  }
+  .team__picture-education {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .team__picture-education-list-item {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .form__send-button {
+    margin-top: 20px;
+    max-width: none;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 17px 26px;
+  }
+  .info__telegram-icon, .info__vk-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .info__telegram-link {
+    margin-right: 20px;
+  }
+  .scrollTop {
+    width: 36px;
+    height: 36px;
+    background-size: 14px 8px;
+    right: 20px;
+  }
+  .scrollTop.vis {
+    right: 20px;
   }
 }/*# sourceMappingURL=index.css.map */
