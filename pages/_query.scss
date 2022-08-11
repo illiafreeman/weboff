@@ -1381,3 +1381,34 @@
 
 
 }
+@media screen and (max-width: 480px) {
+
+    .stage__pic, .client__pic, .projects__grid-image{
+        height: 150px;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+    .client__item, .stage__item, .projects__link {
+        width: 100%;
+        max-width: 100% !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
