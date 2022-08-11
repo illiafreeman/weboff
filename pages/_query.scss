@@ -305,42 +305,51 @@
         font-size: 18px;
         line-height: 26px;
     }
-    .team__title{
+
+    .team__title {
         font-size: 46px;
         line-height: 56px;
         margin-bottom: 62px;
     }
+
     .content__team .container {
         padding: 0 100px;
     }
+
     .team__members {
         justify-content: space-between;
         margin: 0 0 82px;
         gap: 30px;
     }
+
     .team__picture {
         width: 200px;
     }
-    .team__picture-text-name{
+
+    .team__picture-text-name {
         font-size: 20px;
         line-height: 24px;
         height: 48px;
         margin-bottom: 26px;
     }
-    .team__picture-text-role{
+
+    .team__picture-text-role {
         font-size: 16px;
         line-height: 34px;
     }
-    .team__picture-education{
+
+    .team__picture-education {
         font-size: 18px;
         line-height: 20px;
         margin-bottom: 20px;
     }
-    .team__picture-education-list-item{
+
+    .team__picture-education-list-item {
         font-size: 16px;
         line-height: 20px;
         margin-bottom: 15px;
     }
+
     .team__picture-education-list-item span {
         font-size: 11px;
     }
@@ -348,35 +357,42 @@
     .footer__form {
         margin: 0 100px;
     }
-    .form__description-title{
+
+    .form__description-title {
         font-size: 28px;
         line-height: 38px;
         margin: 62px 0 22px;
     }
-    .form__description-text{
+
+    .form__description-text {
         font-size: 20px;
         line-height: 22px;
     }
-    .form__container-title{
+
+    .form__container-title {
         font-size: 28px;
         line-height: 38px;
         margin: 0 0 22px;
     }
-    .form__container{
+
+    .form__container {
         margin-top: 62px;
     }
-    .form__send-button{
+
+    .form__send-button {
         padding: 18px 34px;
         border-radius: 35px;
         font-size: 18px;
         line-height: 34px;
         min-height: 70px;
     }
+
     .info__copyright {
         display: block;
         padding: 0 0 40px;
     }
-    .info__copyright{
+
+    .info__copyright {
         font-size: 14px;
         line-height: 19px;
     }
@@ -393,6 +409,121 @@
 
 
 }
+
+@media screen and (max-width:1024px) {
+    .page__header {
+        padding: 0 40px;
+    }
+
+    .header__logo {
+        margin-left: 0;
+        width: 100px;
+    }
+
+    .header__menu-link {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .content__statystic .container,
+    .content__intro,
+    .client,
+    .content__why-us .container {
+        padding: 60px 40px;
+    }
+    .offer__we-offer {
+        margin: 145px 55px 145PX 45px;
+    }
+    .offer__title {
+        font-size: 33px;
+        line-height: 48px;
+    }
+    .offer__text {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .offer__list-container{
+        padding-right: 40px;
+    }
+    .why-us__grid-article-title{
+        word-wrap: break-word;
+    }
+    .why-us__grid-article {
+        display: grid;
+        grid-template-columns: 67px 1fr;
+    }
+    .why-us__grid-article-title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .stage {
+        padding: 0 40px;
+    }
+    .stage__desc {
+        padding: 0 6px 30px;
+    }
+    .stage__title {
+        font-size: 15px;
+        line-height: 19px;
+    }
+    .stage__desc li {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .products__title {
+        margin: 62px 0 62px 40px;
+        font-size: 40px;
+        line-height: 56px;
+    }
+    .products__offers {
+        margin: 0 20px 0 40px;
+    }
+    .products__button {
+        padding: 18px 34px;
+        margin: 50px 0 50px 40px;
+    }
+    .products__offer-list-item {
+        font-size: 14px;
+    }
+    .projects__grid-description {
+        margin: 16px auto;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .projects__title {
+        margin: 62px 0 62px 40px;
+        font-size: 40px;
+        line-height: 56px;
+    }
+    .projects__grid {
+        margin: 0 40px 20px;
+    }
+    .content__team .container {
+        padding: 0 40px;
+    }
+    .footer__form {
+        margin: 0 40px;
+    }
+    .form__container {
+        margin: 62px 0 0 42px;
+    }
+    .form__description {
+        padding: 0 35px 0 0;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:1023px) {
     .statystic__startup-grid {
