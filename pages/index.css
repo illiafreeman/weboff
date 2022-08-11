@@ -5331,7 +5331,6 @@ template {
     flex-direction: column;
   }
   .statystic__startup {
-    max-width: 280px;
     margin-right: 0;
   }
   .statystic__startup-header {
@@ -5357,12 +5356,10 @@ template {
   .statystic__sites {
     flex-direction: column-reverse;
     margin-top: 21px;
-    max-width: 280px;
   }
   .statystic__sites-header {
     font-size: 20px;
     line-height: 26px;
-    max-width: 185px;
     margin-top: 46px;
   }
   .statystic__sites-grid {
@@ -5380,18 +5377,23 @@ template {
     font-size: 12px;
     line-height: 14px;
   }
+  .statystic__sites-main {
+    max-width: 400px;
+  }
   .statystic__sites-grid-empty {
-    min-width: 280px;
+    width: 100%;
     min-height: 26px;
     margin-top: 13px;
   }
   .statystic__sites-grid-empty_left {
-    min-width: 140px;
+    width: 50%;
     min-height: 12px;
+    margin: 0;
   }
   .statystic__sites-grid-empty_right {
     min-width: 140px;
     min-height: 12px;
+    margin: 0;
   }
   .statystic__sites-formula {
     font-size: 12px;
@@ -5635,8 +5637,8 @@ template {
   }
   .projects__grid-description {
     margin: 18px auto 0;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 20px;
     max-width: 185px;
   }
   .content__team {
@@ -5846,7 +5848,15 @@ template {
     align-items: center;
   }
   .client__item {
-    width: 70%;
+    width: 380px;
+  }
+  .offer__empty-mobile-bottom {
+    margin: 0 20px;
+  }
+  .offer__list-item {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 17px;
   }
   .client__title {
     margin: 15px 0;
@@ -5892,9 +5902,9 @@ template {
     align-items: center;
   }
   .stage__item, .projects__link {
-    width: 70%;
-    max-width: 70% !important;
-    flex: 0 0 70%;
+    width: 380px;
+    max-width: 380px !important;
+    flex: 0 0 auto;
   }
   .content__special-offer {
     margin: 0 5px 40px;
