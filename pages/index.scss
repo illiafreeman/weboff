@@ -470,6 +470,7 @@ $transition: all 0.2s ease-in-out;
         color: #FFD508;
         margin: 40px 0 40px;
         padding: 0 20px;
+        height: 44px;
     }
     &__desc{
         font-size: 18px;
@@ -536,7 +537,7 @@ $transition: all 0.2s ease-in-out;
     background-repeat: no-repeat;
     background-position: left 0 top 364px, left 40% top 46px, left 95% bottom 72px;
     .container{
-        padding: 104px 133px 102px 130px;
+        padding: 104px 133px 140px 130px;
     }
 }
 
@@ -883,6 +884,7 @@ $transition: all 0.2s ease-in-out;
         text-align: center;
         margin: 42px 0;
         color: #FFD508;
+        height: 52px;
     }
     &__desc{
         margin: 0;
@@ -925,7 +927,7 @@ $transition: all 0.2s ease-in-out;
     line-height: 88px;
     text-transform: uppercase;
     max-width: 790px;
-    margin: 0 0 65px 0;
+    margin: 0 0 80px 0;
     padding: 0
 }
 
@@ -955,7 +957,7 @@ $transition: all 0.2s ease-in-out;
 }
 
 .why-us__grid-article-title {
-    margin: 0;
+    margin: 0 0 20px;
     padding: 0;
     font-size: 24px;
     font-weight: 700;
@@ -1091,7 +1093,7 @@ $transition: all 0.2s ease-in-out;
     line-height: 22px;
     color: #272727;
     padding: 0;
-    margin: 0 0 10px;
+    margin: 0 0 16px;
 }
 
 .products__offer-list {
@@ -1105,7 +1107,7 @@ $transition: all 0.2s ease-in-out;
 }
 
 .products__offer-list-item {
-    margin: 0 0 8px;
+    margin: 0 0 12px;
     font-size: 18px;
     font-weight: 500;
     line-height: 18px;

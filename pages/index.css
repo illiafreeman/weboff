@@ -463,6 +463,7 @@ template {
   color: #FFD508;
   margin: 40px 0 40px;
   padding: 0 20px;
+  height: 44px;
 }
 .client__desc {
   font-size: 18px;
@@ -517,7 +518,7 @@ template {
   background-position: left 0 top 364px, left 40% top 46px, left 95% bottom 72px;
 }
 .content__statystic .container {
-  padding: 104px 133px 102px 130px;
+  padding: 104px 133px 140px 130px;
 }
 
 .statystic__questions {
@@ -867,6 +868,7 @@ template {
   text-align: center;
   margin: 42px 0;
   color: #FFD508;
+  height: 52px;
 }
 .stage__desc {
   margin: 0;
@@ -889,7 +891,7 @@ template {
   line-height: 88px;
   text-transform: uppercase;
   max-width: 790px;
-  margin: 0 0 65px 0;
+  margin: 0 0 80px 0;
   padding: 0;
 }
 
@@ -921,7 +923,7 @@ template {
 }
 
 .why-us__grid-article-title {
-  margin: 0;
+  margin: 0 0 20px;
   padding: 0;
   font-size: 24px;
   font-weight: 700;
@@ -1053,7 +1055,7 @@ template {
   line-height: 22px;
   color: #272727;
   padding: 0;
-  margin: 0 0 10px;
+  margin: 0 0 16px;
 }
 
 .products__offer-list {
@@ -1067,7 +1069,7 @@ template {
 }
 
 .products__offer-list-item {
-  margin: 0 0 8px;
+  margin: 0 0 12px;
   font-size: 18px;
   font-weight: 500;
   line-height: 18px;
@@ -5965,12 +5967,12 @@ template {
   .scrollTop.vis {
     right: 20px;
   }
+  .client__title, .stage__title {
+    height: auto;
+  }
 }
 @media screen and (max-width: 480px) {
   .stage__pic, .client__pic, .projects__grid-image {
-    height: 150px;
-    -o-object-fit: cover;
-       object-fit: cover;
     border-radius: 30px;
   }
   .client__item, .stage__item, .projects__link {
