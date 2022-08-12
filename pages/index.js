@@ -137,7 +137,7 @@ function openSubmitPopup(bool) {
 		// });
 
 		$('.marquee').simplemarquee({
-			speed: 50,
+			speed: 100,
 			cycles: 'Infinity', 
 			delayBetweenCycles: 0, 
 			handleHover: false
