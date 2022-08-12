@@ -32,7 +32,7 @@
             direction: 'left',
             speed: 100,
 			cycles: 'Infinity', 
-            space: 40,
+            space: 0,
             delayBetweenCycles: 0,
             handleHover: true,
             handleResize: true,

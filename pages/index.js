@@ -120,7 +120,15 @@ function openSubmitPopup(bool) {
 		return false;
 	});
 	/*end scroll to top*/
+
+	
 	$( window ).on( "load", function() {
+		$('.marquee').simplemarquee({
+			speed: 100,
+			cycles: 'Infinity', 
+			delayBetweenCycles: 0, 
+			handleHover: false
+		});
 
 		if($(window).width() > 1023){
 			new WOW().init();
@@ -136,12 +144,7 @@ function openSubmitPopup(bool) {
 		// 	duplicated: true
 		// });
 
-		$('.marquee').simplemarquee({
-			speed: 100,
-			cycles: 'Infinity', 
-			delayBetweenCycles: 0, 
-			handleHover: false
-		});
+		
 		
 	});
 	$("#phone").mask("(+7) 999-99-99");
