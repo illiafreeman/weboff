@@ -101,9 +101,7 @@ function openSubmitPopup(bool) {
 //button.addEventListener('mouseup', openSubmitPopup);
 
 
-	$('.string').liMarquee({
-		hoverStop: false
-	});
+	
 	
 	/*scroll to top*/
 	var scrollTop = $(".scrollTop");
@@ -127,6 +125,10 @@ function openSubmitPopup(bool) {
 		if($(window).width() > 1023){
 			new WOW().init();
 		}
+
+		$('.string').liMarquee({
+			hoverStop: false
+		});
 		
 	});
 	$("#phone").mask("(+7) 999-99-99");
