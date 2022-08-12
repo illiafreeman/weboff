@@ -419,7 +419,7 @@ template {
 }
 
 .intro__text {
-  max-width: 748px;
+  max-width: 574px;
   margin: 0;
   padding: 0;
   font-size: 24px;
@@ -5333,7 +5333,7 @@ template {
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
-    max-width: 280px;
+    max-width: 300px;
   }
   .running-line {
     border-top: 2px solid #fff;
