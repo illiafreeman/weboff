@@ -1653,7 +1653,7 @@ template {
 
 .marquee h1 {
   display: inline-block;
-  margin: 0 30px;
+  margin: 0;
   height: 62px;
   font-size: 34px;
   text-transform: uppercase;
