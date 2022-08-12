@@ -1654,6 +1654,16 @@ template {
 .marquee h1 {
   display: inline-block;
   margin: 0 30px;
+  height: 62px;
+  font-size: 34px;
+  text-transform: uppercase;
+  line-height: 61px;
+  color: #FFD508;
+}
+
+.run {
+  border-top: 3px solid #FFD508;
+  border-bottom: 3px solid #FFD508;
 }
 
 /*!

@@ -101,12 +101,7 @@ function openSubmitPopup(bool) {
 //button.addEventListener('mouseup', openSubmitPopup);
 
 
-	$('.marquee').simplemarquee({
-		speed: 100,
-		cycles: 'Infinity', 
-		delayBetweenCycles: 0, 
-		handleHover: false
-	});
+	
 	
 	/*scroll to top*/
 	var scrollTop = $(".scrollTop");
@@ -140,6 +135,13 @@ function openSubmitPopup(bool) {
 		// $('.string').marquee({
 		// 	duplicated: true
 		// });
+
+		$('.marquee').simplemarquee({
+			speed: 50,
+			cycles: 'Infinity', 
+			delayBetweenCycles: 0, 
+			handleHover: false
+		});
 		
 	});
 	$("#phone").mask("(+7) 999-99-99");
