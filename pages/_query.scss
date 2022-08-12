@@ -1378,7 +1378,11 @@
     .client__title, .stage__title{
         height: auto;
     }
-
+    .marquee h1 {
+        height: 50px;
+        font-size: 20px;
+        line-height: 50px;
+    }
 
 
 

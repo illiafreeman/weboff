@@ -5985,6 +5985,11 @@ template {
   .client__title, .stage__title {
     height: auto;
   }
+  .marquee h1 {
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+  }
 }
 @media screen and (max-width: 480px) {
   .stage__pic, .client__pic, .projects__grid-image {
