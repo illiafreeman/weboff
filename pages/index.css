@@ -1651,6 +1651,11 @@ template {
   animation: rotating 5s linear infinite;
 }
 
+.marquee h1 {
+  display: inline-block;
+  margin: 0 30px;
+}
+
 /*!
 * animate.css - https://animate.style/
 * Version - 4.1.1
