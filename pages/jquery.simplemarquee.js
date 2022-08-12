@@ -29,11 +29,11 @@
     function SimpleMarquee(element, options) {
         this._element = $(element);
         this._options = $.extend({
-            speed: 30,
             direction: 'left',
-            cycles: 1,
+            speed: 100,
+			cycles: 'Infinity', 
             space: 40,
-            delayBetweenCycles: 2000,
+            delayBetweenCycles: 0,
             handleHover: true,
             handleResize: true,
             easing: 'linear'
