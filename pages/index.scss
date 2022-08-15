@@ -1453,7 +1453,8 @@ $transition: all 0.2s ease-in-out;
     text-decoration: none;
     outline: 0;
     cursor: pointer;
-    border: none
+    border: none;
+    color: #000;
 }
 
 .form__send-button:focus {
