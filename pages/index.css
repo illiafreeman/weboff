@@ -397,6 +397,9 @@ template {
   font-size: 80px;
   line-height: 90px;
 }
+.intro__header span {
+  color: #FFD508;
+}
 
 .intro__header_display-none {
   visibility: hidden;
@@ -577,7 +580,7 @@ template {
 
 .statystic__sites {
   display: flex;
-  margin: 0;
+  margin: 0 40px 0 0;
   padding: 0;
   max-width: 577px;
   font-size: 0;
@@ -699,6 +702,9 @@ template {
   margin: 0;
   padding: 0;
   max-width: 598px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .statystic__web-agency-title {
@@ -812,7 +818,7 @@ template {
   font-weight: 500;
   line-height: 22px;
   margin-left: 22px;
-  margin-bottom: 22px;
+  margin-bottom: 18px;
 }
 
 .offer__list-item::before {

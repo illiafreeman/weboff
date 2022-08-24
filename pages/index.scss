@@ -404,6 +404,9 @@ $transition: all 0.2s ease-in-out;
     padding: 0;
     font-size: 80px;
     line-height: 90px;
+    span{
+        color: #FFD508;
+    }
 }
 
 .intro__header_display-none {
@@ -592,7 +595,7 @@ $transition: all 0.2s ease-in-out;
 
 .statystic__sites {
     display: flex;
-    margin: 0;
+    margin: 0 40px 0 0;
     padding: 0;
     max-width: 577px;
     font-size: 0
@@ -710,7 +713,11 @@ $transition: all 0.2s ease-in-out;
 .statystic__web-agency-data {
     margin: 0;
     padding: 0;
-    max-width: 598px
+    max-width: 598px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 .statystic__web-agency-title {
@@ -824,7 +831,7 @@ $transition: all 0.2s ease-in-out;
     font-weight: 500;
     line-height: 22px;
     margin-left: 22px;
-    margin-bottom: 22px
+    margin-bottom: 18px
 }
 
 .offer__list-item::before {
