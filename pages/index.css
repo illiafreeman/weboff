@@ -4852,6 +4852,9 @@ template {
     font-size: 28px;
     line-height: 38px;
   }
+  .statystic__web-agency-arrow {
+    width: 100px;
+  }
   .client h2,
 .why-us__title {
     font-size: 46px;
@@ -5269,6 +5272,26 @@ template {
   }
   .statystic__sites-grid-empty_right {
     min-width: 150px;
+  }
+}
+@media screen and (max-width: 860px) {
+  .statystic__questions {
+    flex-direction: column;
+  }
+  .statystic__sites {
+    margin-right: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+  .statystic__sites-main {
+    width: 100%;
+    max-width: 100%;
+  }
+  .statystic__sites-grid-empty {
+    min-width: 100%;
+  }
+  .statystic__sites-grid-empty_left {
+    min-width: 50%;
   }
 }
 @media screen and (min-width: 769px) {
