@@ -77,7 +77,7 @@ closeButtonPopupOffer.addEventListener('click', () => closePopup(popupElementOff
 //specialOfferElement.addEventListener('click', () => openPopup(popupElementOffer));
 getButtonPopupOffer.addEventListener('click', () => closePopup(popupElementOffer));
 
-//const myTimeout = setTimeout(() => openPopup(popupElementOffer), 30000);
+const myTimeout = setTimeout(() => openPopup(popupElementOffer), 30000);
 
 
 
