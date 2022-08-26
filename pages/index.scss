@@ -1620,7 +1620,8 @@ $transition: all 0.2s ease-in-out;
 }
 
 .popup__title_type_submit {
-    margin: 0
+    margin: 0;
+    max-width: 100%;
 }
 .scrollTop {
     width: 80px;

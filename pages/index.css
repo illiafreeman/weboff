@@ -1604,6 +1604,7 @@ template {
 
 .popup__title_type_submit {
   margin: 0;
+  max-width: 100%;
 }
 
 .scrollTop {
@@ -5309,6 +5310,9 @@ template {
   }
 }
 @media screen and (max-width: 768px) {
+  .popup__title_type_submit {
+    margin-top: 0 !important;
+  }
   .page__wrapper {
     background-image: url(../images/back_intro_green_mobile.png);
   }
