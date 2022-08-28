@@ -282,11 +282,28 @@ template {
 }
 .page__header_min .page__header-container {
   align-items: center;
-  padding: 10px 0;
+  padding: 20px 0;
+  justify-content: flex-end;
+  position: relative;
 }
 .page__header_min .header__logo {
-  max-width: 70px;
+  width: 120px;
+  max-width: 120px;
+  height: 120px;
+  max-height: 120px;
   margin: 0;
+}
+.page__header_min .logo-wrap {
+  width: 170px;
+  max-width: 170px;
+  height: 170px;
+  max-height: 170px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #272727;
+  border-radius: 50%;
+  border-bottom: 1px solid rgba(166, 163, 163, 0.5);
 }
 .page__header_min .header__menu {
   margin: 0;
@@ -300,6 +317,17 @@ template {
   padding: 0;
   max-width: 220px;
   transition: all 0.2s ease-in-out;
+}
+
+.logo-wrap {
+  transition: all 0.2s ease-in-out;
+  width: 220px;
+  max-width: 220px;
+  height: 220px;
+  max-height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header__menu {
