@@ -282,10 +282,10 @@ template {
 }
 .page__header_min .page__header-container {
   align-items: center;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 .page__header_min .header__logo {
-  max-width: 60px;
+  max-width: 70px;
   margin: 0;
 }
 .page__header_min .header__menu {
