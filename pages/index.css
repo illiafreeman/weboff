@@ -264,7 +264,12 @@ template {
   margin: 0 auto 0;
   display: flex;
   justify-content: space-between;
-  max-width: 1440px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #272727;
+  z-index: 1000;
 }
 
 .header__logo {
