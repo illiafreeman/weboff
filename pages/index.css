@@ -298,6 +298,7 @@ template {
 
 .header__logo {
   padding: 0;
+  max-width: 220px;
   transition: all 0.2s ease-in-out;
 }
 
