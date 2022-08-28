@@ -203,7 +203,7 @@ $transition: all 0.2s ease-in-out;
     position: relative;
     background-image: url(../images/back_intro_green.png), url(../images/back_intro_red.png),;
     background-repeat: no-repeat;
-    background-position: right 100px, left 320px;
+    background-position: right 0px, left 120px;
 }
 .container{
     max-width: 1440px;
@@ -274,12 +274,20 @@ $transition: all 0.2s ease-in-out;
     top: 0;
     left: 0;
     right: 0;
-    background-color: #272727;
+    //background-color: #272727;
     z-index: 1000;
+    &-container{
+        width: 1150px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
 }
-
+.page{
+    padding-top: 110px;
+}
 .header__logo {
-    margin: 26px 0 0 130px;
+    margin: 26px 0 0;
     padding: 0;
     max-width: 180px;
     max-height: 148px
@@ -288,7 +296,7 @@ $transition: all 0.2s ease-in-out;
 
 .header__menu {
     min-width: 493px;
-    margin: 40px 130px 0 0
+    margin: 40px 0 0;
 }
 
 .header__menu-list {
