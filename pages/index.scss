@@ -203,7 +203,7 @@ $transition: all 0.2s ease-in-out;
     position: relative;
     background-image: url(../images/back_intro_green.png), url(../images/back_intro_red.png),;
     background-repeat: no-repeat;
-    background-position: right 0px, left 120px;
+    background-position: right 0px, left 150px;
 }
 .container{
     max-width: 1440px;
@@ -274,13 +274,27 @@ $transition: all 0.2s ease-in-out;
     top: 0;
     left: 0;
     right: 0;
-    //background-color: #272727;
     z-index: 1000;
     &-container{
         width: 1150px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
+    }
+    &_min{
+        background-color: #272727;
+        border-bottom: 1px solid rgba(166, 163, 163, 0.5);
+        .page__header-container{
+            align-items: center;
+            padding: 15px 0;
+        }
+        .header__logo{
+            max-width: 60px;
+            margin: 0;
+        }
+        .header__menu{
+            margin: 0;
+        }
     }
 }
 .page{
@@ -290,7 +304,8 @@ $transition: all 0.2s ease-in-out;
     margin: 26px 0 0;
     padding: 0;
     max-width: 180px;
-    max-height: 148px
+    max-height: 148px;
+    transition: $transition;
 }
 
 
@@ -436,7 +451,7 @@ $transition: all 0.2s ease-in-out;
 
 .content__intro {
     margin: 0;
-    padding: 120px 130px 192px;
+    padding: 180px 130px 192px;
     background-image: url(../images/back_intro_yellow.png);
     background-repeat: no-repeat;
     background-position: left 60% top 399px;

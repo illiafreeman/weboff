@@ -196,7 +196,7 @@ template {
   position: relative;
   background-image: url(../images/back_intro_green.png), url(../images/back_intro_red.png);
   background-repeat: no-repeat;
-  background-position: right 0px, left 120px;
+  background-position: right 0px, left 150px;
 }
 
 .container {
@@ -276,6 +276,21 @@ template {
   display: flex;
   justify-content: space-between;
 }
+.page__header_min {
+  background-color: #272727;
+  border-bottom: 1px solid rgba(166, 163, 163, 0.5);
+}
+.page__header_min .page__header-container {
+  align-items: center;
+  padding: 15px 0;
+}
+.page__header_min .header__logo {
+  max-width: 60px;
+  margin: 0;
+}
+.page__header_min .header__menu {
+  margin: 0;
+}
 
 .page {
   padding-top: 110px;
@@ -286,6 +301,7 @@ template {
   padding: 0;
   max-width: 180px;
   max-height: 148px;
+  transition: all 0.2s ease-in-out;
 }
 
 .header__menu {
@@ -427,7 +443,7 @@ template {
 
 .content__intro {
   margin: 0;
-  padding: 120px 130px 192px;
+  padding: 180px 130px 192px;
   background-image: url(../images/back_intro_yellow.png);
   background-repeat: no-repeat;
   background-position: left 60% top 399px;

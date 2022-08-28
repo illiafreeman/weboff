@@ -148,3 +148,14 @@ function openSubmitPopup(bool) {
 		
 	});
 	$("#phone").mask("+7 (999) 999-99-99");
+
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 10) {
+            $(".page__header").addClass("page__header_min");
+        } else {
+            $(".page__header").removeClass("page__header_min");
+        }
+        
+    });
