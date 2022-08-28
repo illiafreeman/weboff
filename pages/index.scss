@@ -1217,7 +1217,7 @@ $transition: all 0.2s ease-in-out;
 }
 
 .content__projects {
-    margin: 36px 0 82px;
+    margin: 36px 0 0;
     padding: 66px 0 0;
     background-image: url(../images/back_projects_yellow.png);
     background-repeat: no-repeat;
@@ -1296,7 +1296,7 @@ $transition: all 0.2s ease-in-out;
 }
 
 .content__team {
-    
+    padding-top: 110px;
     background-image: url(../images/back_statystic_yellow.png), url(../images/back_team_red.png);
     background-repeat: no-repeat;
     background-position: left 0 bottom 15px, right 13% top 0;
