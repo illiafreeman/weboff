@@ -1735,7 +1735,9 @@ to {
         &_result{
             background-image: url(../images/bg_result_red.png), url(../images/bg_result_yellow.png);
             background-repeat: no-repeat;
-            background-position: left 0, right 450px;
+            background-position: left 0, right bottom;
+            margin-bottom: 0;
+            padding-bottom: 100px;
         }
     }
     &__container{
