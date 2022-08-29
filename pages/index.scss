@@ -1721,6 +1721,11 @@ to {
 .project{
     &__article{
         margin-bottom: 100px;
+        &_target{
+            background-image: url(../images/bg_target_red.png);
+            background-repeat: no-repeat;
+            background-position: right 170px;
+        }
     }
     &__container{
         width: 1180px;

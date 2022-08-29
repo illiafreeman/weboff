@@ -1704,6 +1704,11 @@ template {
 .project__article {
   margin-bottom: 100px;
 }
+.project__article_target {
+  background-image: url(../images/bg_target_red.png);
+  background-repeat: no-repeat;
+  background-position: right 170px;
+}
 .project__container {
   width: 1180px;
   margin: 0 auto;
