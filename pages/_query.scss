@@ -1695,6 +1695,7 @@
     .page__wrapper_project {
         background-image: url(../images/back_intro_green.png), url(../images/back_intro_red.png);
         background-size: 100px auto, 40px auto;
+        background-position: 110% 100px, left bottom;
     }
     .page__wrapper_project .content__intro {
         background-position: 80% bottom;
