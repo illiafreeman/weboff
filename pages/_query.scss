@@ -1691,10 +1691,18 @@
     .why-us__grid-article-title {
         font-size: 14px;
         line-height: 18px;
-      }
-
-
-
+    }
+    .page__wrapper_project {
+        background-image: url(../images/back_intro_green.png), url(../images/back_intro_red.png);
+        background-size: 100px auto, 40px auto;
+    }
+    .page__wrapper_project .content__intro {
+        background-position: 80% bottom;
+        background-size: 70px auto
+    }
+    .project__site {
+        font-size: 13px;
+    }
 
 
 
