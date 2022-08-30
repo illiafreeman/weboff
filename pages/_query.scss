@@ -1564,6 +1564,50 @@
     .form__container-inputs{
         max-width: 100%;
     }
+    .form__input-field {
+        width: auto;
+        min-height: auto;
+        height: 46px;
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 0;
+        padding: 0 18px 0;
+        min-width: auto;
+    }
+    .form__send-button{
+        height: 46px;
+        padding: 0px 26px;
+    }
+    .project__article {
+        padding-bottom: 66px;
+    }
+    .project__article_result{
+        padding-bottom: 26px;
+        background-size: auto auto, 100px auto;
+    }
+    .page__footer_project{
+        background-image: url(../images/bg_footer_green.png), url(../images/bg_footer_red.png);
+        background-repeat: no-repeat;
+        background-position: left bottom, 90% 70px;
+        background-size: 200px auto, 140px auto;
+    }
+    .header__menu {
+        margin-top: 26px;
+    }
+    .project__site {
+        margin: 20px 0;
+    }
+    .project__article_result{
+        .project__pic{
+            margin-bottom: 40px;
+        }
+    }
+
+
+
+
+
+
 
 }
 @media screen and (max-width: 600px) {
