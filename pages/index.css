@@ -1706,7 +1706,8 @@ template {
 
 video {
   height: auto;
-  width: 100%;
+  display: block;
+  width: 100% !important;
 }
 
 .project__article {
