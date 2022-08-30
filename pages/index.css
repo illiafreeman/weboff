@@ -5378,6 +5378,26 @@ template {
   }
   .project__article_solution {
     background-size: 120px auto, 100px auto;
+    background-position: left 0, right bottom;
+  }
+  .project__site {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .project__article_result {
+    padding-bottom: 50px;
+  }
+  .footer-container_project .footer__form {
+    margin: 0;
+  }
+  .footer-container_project .form__container {
+    margin: 40px 0 0;
+  }
+  .footer-container_project .form__input-field {
+    width: auto;
+  }
+  .footer-container_project .footer__info_project {
+    margin-top: 80px;
   }
   .page__header {
     padding: 0 40px;
@@ -6257,6 +6277,25 @@ template {
     background-size: 16px 16px;
     background-repeat: no-repeat;
     background-position: center;
+  }
+  .intro__header_project {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    max-width: none;
+    width: 70%;
+  }
+  .page__wrapper_project .header__menu {
+    display: block;
+  }
+  .page__wrapper_project .header__burger, .page__wrapper_project .header__close-button {
+    display: none;
+  }
+  .page__wrapper_project .header__menu-list {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    margin: 0;
   }
 }
 @media screen and (max-width: 480px) {
