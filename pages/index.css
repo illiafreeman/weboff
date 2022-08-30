@@ -1704,6 +1704,11 @@ template {
   border-bottom: 3px solid #FFD508;
 }
 
+video {
+  height: auto;
+  width: 100%;
+}
+
 .project__article {
   padding-bottom: 100px;
 }
