@@ -6281,9 +6281,10 @@ template {
   .intro__header_project {
     font-size: 30px;
     font-weight: 700;
-    line-height: 34px;
+    line-height: 46px;
     max-width: none;
     width: 70%;
+    margin: 0;
   }
   .page__wrapper_project .header__menu {
     display: block;
@@ -6296,6 +6297,54 @@ template {
     flex-direction: row;
     position: static;
     margin: 0;
+  }
+  .page__wrapper_project {
+    background-image: url(../images/back_intro_green.png), url(../images/back_intro_red.png);
+    background-size: 200px auto, 60px auto;
+  }
+  .page__wrapper_project .content__intro {
+    background: none;
+    background-image: url(../images/back_intro_yellow.png);
+    background-repeat: no-repeat;
+    background-position: 60% bottom;
+    background-size: 98px auto;
+    padding: 120px 80px 153px;
+    margin-bottom: 60px !important;
+  }
+  .desc__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .desc__text {
+    font-size: 18px;
+    margin: 0 0 26px;
+  }
+  .project__pic {
+    border-radius: 24px;
+  }
+  .project__article {
+    padding-bottom: 74px;
+  }
+  .project__site {
+    font-size: 18px;
+  }
+  .project__article {
+    padding-bottom: 72px;
+  }
+  .form__send-button {
+    margin-top: 0;
+    max-width: none;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 17px 26px;
+    min-width: auto;
+    min-height: 0;
+  }
+  .form__description-text, .form__container-title {
+    max-width: 60%;
+  }
+  .form__container-inputs {
+    max-width: 100%;
   }
 }
 @media screen and (max-width: 480px) {
