@@ -1708,6 +1708,7 @@ video {
   height: auto;
   display: block;
   width: 100% !important;
+  max-width: 100% !important;
 }
 
 .project__article {
