@@ -422,6 +422,9 @@
 }
 
 @media screen and (max-width:1024px) {
+    .project__article {
+        padding-bottom: 80px;
+      }
     .page__wrapper_project{
         background-size: 300px auto, 60px auto;
     }
@@ -662,7 +665,12 @@
 
 
 @media screen and (max-width:768px) {
-    
+    video {
+        margin-bottom: 50px;
+    }
+    .project {
+        padding-top: 50px;
+    }
     .popup__title_type_submit{
         margin-top: 0 !important;
     }
@@ -1611,6 +1619,9 @@
 
 }
 @media screen and (max-width: 600px) {
+    .project {
+        padding-top: 0;
+      }
     .page__header {
         margin-bottom: 0;
     }

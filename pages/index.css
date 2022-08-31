@@ -1710,10 +1710,14 @@ video {
   width: 100% !important;
   max-width: 100% !important;
   border-radius: 36px;
+  margin-bottom: 100px;
 }
 
+.project {
+  padding-top: 100px;
+}
 .project__article {
-  padding-bottom: 100px;
+  padding-bottom: 120px;
 }
 .project__article_target {
   background-image: url(../images/bg_target_red.png);
@@ -1774,7 +1778,7 @@ video {
 .desc__text {
   font-size: 24px;
   line-height: 29px;
-  margin: 0 0 62px;
+  margin: 0 0 92px;
   width: 780px;
 }
 .desc__text b {
@@ -5359,6 +5363,9 @@ video {
   }
 }
 @media screen and (max-width: 1024px) {
+  .project__article {
+    padding-bottom: 80px;
+  }
   .page__wrapper_project {
     background-size: 300px auto, 60px auto;
   }
@@ -5558,6 +5565,12 @@ video {
   }
 }
 @media screen and (max-width: 768px) {
+  video {
+    margin-bottom: 50px;
+  }
+  .project {
+    padding-top: 50px;
+  }
   .popup__title_type_submit {
     margin-top: 0 !important;
   }
@@ -6392,6 +6405,9 @@ video {
   }
 }
 @media screen and (max-width: 600px) {
+  .project {
+    padding-top: 0;
+  }
   .page__header {
     margin-bottom: 0;
   }

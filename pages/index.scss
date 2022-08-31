@@ -1725,10 +1725,12 @@ video{
     width: 100% !important;
     max-width: 100% !important;
     border-radius: 36px;
+    margin-bottom: 100px;
 }
 .project{
+    padding-top: 100px;
     &__article{
-        padding-bottom: 100px;
+        padding-bottom: 120px;
         &_target{
             background-image: url(../images/bg_target_red.png);
             background-repeat: no-repeat;
@@ -1790,7 +1792,7 @@ video{
     &__text{
         font-size: 24px;
         line-height: 29px;
-        margin: 0 0 62px;
+        margin: 0 0 92px;
         width: 780px;
         b{
             color: #FFD508;
