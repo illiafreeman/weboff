@@ -1397,7 +1397,14 @@ $transition: all 0.2s ease-in-out;
     line-height: 34px;
     padding: 0;
     margin: 0;
-    max-width: 421px
+    max-width: 421px;
+    a{
+        color: #ffd508;
+        font-weight: 600;
+        &:hover{
+            text-decoration: none;
+        }
+    }
 }
 
 .form__container {
@@ -1507,10 +1514,17 @@ $transition: all 0.2s ease-in-out;
 .info__social-links {
     margin: 0 auto 0;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    a:last-child{
+        margin: 0;
+    }
 }
 
 .info__telegram-link {
+    text-decoration: none;
+    margin-right: 24px
+}
+.info__vk-link {
     text-decoration: none;
     margin-right: 24px
 }

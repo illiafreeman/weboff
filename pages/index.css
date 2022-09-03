@@ -1361,6 +1361,13 @@ template {
   margin: 0;
   max-width: 421px;
 }
+.form__description-text a {
+  color: #ffd508;
+  font-weight: 600;
+}
+.form__description-text a:hover {
+  text-decoration: none;
+}
 
 .form__container {
   margin: 84px 0 0 98px;
@@ -1495,8 +1502,16 @@ template {
   display: flex;
   justify-content: center;
 }
+.info__social-links a:last-child {
+  margin: 0;
+}
 
 .info__telegram-link {
+  text-decoration: none;
+  margin-right: 24px;
+}
+
+.info__vk-link {
   text-decoration: none;
   margin-right: 24px;
 }
