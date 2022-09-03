@@ -1789,6 +1789,9 @@ video{
         text-transform: uppercase;
         color: #FFD508;
         margin: 0 0 28px;
+        &_single{
+            margin: 0 0 92px;
+        }
     }
     &__text{
         font-size: 24px;

@@ -1776,6 +1776,9 @@ video {
   color: #FFD508;
   margin: 0 0 28px;
 }
+.desc__title_single {
+  margin: 0 0 92px;
+}
 .desc__text {
   font-size: 24px;
   line-height: 29px;
@@ -5395,6 +5398,9 @@ video {
     line-height: 26px;
     margin: 0 0 40px;
     width: 80%;
+  }
+  .desc__title_single {
+    margin-bottom: 40px;
   }
   .project__article_target {
     background-position: right 100px;
