@@ -1329,7 +1329,6 @@ template {
 .page__footer .container {
   max-width: 1440px;
 }
-
 .footer__form {
   display: flex;
   justify-content: flex-start;
