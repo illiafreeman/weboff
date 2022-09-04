@@ -443,7 +443,7 @@ template {
   padding: 120px 130px 192px;
   background-image: url(../images/back_intro_yellow.png);
   background-repeat: no-repeat;
-  background-position: left 60% top 399px;
+  background-position: left 79% top 399px;
   background-size: auto auto;
   position: relative;
 }
@@ -543,12 +543,58 @@ template {
 
 .content__statystic {
   margin: 0;
-  background-image: url(../images/back_statystic_yellow.png), url(../images/back_statystic_green.png), url(../images/back_statystic_red.png);
+  background-image: url(../images/bg_statystic_yellow.png), url(../images/bg_statystic_green.png);
   background-repeat: no-repeat;
-  background-position: left 0 top 364px, left 40% top 46px, left 95% bottom 72px;
+  background-position: 69px bottom, 58% 46px;
+  position: relative;
 }
 .content__statystic .container {
   padding: 104px 133px 140px 130px;
+}
+.content__statystic:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 285px;
+  height: 244px;
+  bottom: -100px;
+  right: 120px;
+  background-image: url(../images/bg_statystic_red.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.section_client {
+  position: relative;
+}
+.section_client:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 227px;
+  height: 226px;
+  bottom: 20px;
+  left: -180px;
+  background-image: url(../images/bg_client.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.content__offer {
+  position: relative;
+}
+.content__offer:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 212px;
+  height: 238px;
+  bottom: 140px;
+  left: -130px;
+  background-image: url(../images/bg_offer.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -10;
 }
 
 .statystic__questions {
@@ -861,9 +907,9 @@ template {
 
 .content__why-us {
   margin: 0;
-  background-image: url(../images/back_why-we_green.png), url(../images/back_why-we_red.png), url(../images/back_why-we_yellow.png);
+  background-image: url(../images/bg_whyus.png);
   background-repeat: no-repeat;
-  background-position: left 80% top 38px, left 0 top 373px, right 0 top 475px;
+  background-position: 90% 38px;
 }
 .content__why-us .container {
   padding: 102px 172px 102px 130px;
