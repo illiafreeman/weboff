@@ -917,6 +917,31 @@ template {
 
 .stage {
   padding: 0 130px;
+  position: relative;
+}
+.stage:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 236px;
+  height: 308px;
+  bottom: 150px;
+  left: -180px;
+  background-image: url(../images/bg_stage_yellow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.stage::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 387px;
+  height: 414px;
+  top: -80px;
+  right: -120px;
+  background-image: url(../images/bg_stage_red.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .stage h2 {
   font-size: 78px;
