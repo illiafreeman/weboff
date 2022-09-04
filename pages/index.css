@@ -1990,6 +1990,10 @@ video {
   background: #65dbbd;
 }
 
+.info__vk-link img {
+  width: 27px;
+}
+
 /*!
 * animate.css - https://animate.style/
 * Version - 4.1.1
