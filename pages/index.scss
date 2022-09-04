@@ -1851,9 +1851,9 @@ video{
             background-position: left 0, right 450px;
         }
         &_result{
-            background-image: url(../images/bg_result_red.png), url(../images/bg_result_yellow.png);
+            background-image: url(../images/bg_result_red.png);
             background-repeat: no-repeat;
-            background-position: left 0, right bottom;
+            background-position: left 0;
             margin-bottom: 0;
             padding-bottom: 100px;
         }
