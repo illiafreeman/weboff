@@ -1099,12 +1099,41 @@ template {
   font-weight: 700;
 }
 
+.product-wrap {
+  position: relative;
+}
+.product-wrap:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 197px;
+  height: 307px;
+  bottom: 0;
+  left: 0;
+  background-image: url(../images/bg_products_green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.product-wrap::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 282px;
+  height: 312px;
+  top: 90px;
+  right: 84px;
+  background-image: url(../images/bg_products_yellow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+
 .content__products {
+  position: relative;
   margin: 0 12px 0;
   padding: 0;
   background-color: #65dbbd;
   border-radius: 75px;
-  position: relative;
 }
 
 .products__title {
@@ -1223,9 +1252,9 @@ template {
 .content__projects {
   margin: 36px 0 82px;
   padding: 66px 0 0;
-  background-image: url(../images/back_projects_yellow.png);
+  background-image: url(../images/bg_projects.png);
   background-repeat: no-repeat;
-  background-position: left 76% top 0;
+  background-position: right 0;
 }
 
 .projects__container {
@@ -1298,9 +1327,9 @@ template {
 }
 
 .content__team {
-  background-image: url(../images/back_statystic_yellow.png), url(../images/back_team_red.png);
+  background-image: url(../images/bg_team_green.png), url(../images/bg_team_red.png);
   background-repeat: no-repeat;
-  background-position: left 0 bottom 15px, right 13% top 0;
+  background-position: 95% top, 3% bottom;
 }
 .content__team .container {
   padding: 0 130px 0;
@@ -1393,9 +1422,9 @@ template {
 .page__footer {
   padding: 0;
   margin: 0 auto 0;
-  background-image: url(../images/bg_footer_green.png), url(../images/bg_footer_red.png);
+  background-image: url(../images/bg_footer_green.png), url(../images/bg_footer_red.png), url(../images/bg_footer_yellow.png);
   background-repeat: no-repeat;
-  background-position: left bottom, 70% 70px;
+  background-position: left bottom, 75% 520px, 95% top;
 }
 .page__footer .container {
   max-width: 1440px;
