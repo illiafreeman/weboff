@@ -5156,7 +5156,19 @@ video {
   animation-name: slideOutUp;
 }
 
+@media screen and (max-width: 1480px) {
+  .content__intro {
+    background-position: left 61% top 399px;
+  }
+}
 @media screen and (max-width: 1280px) {
+  .page__wrapper {
+    background-size: auto 540px, 60px auto;
+  }
+  .content__intro {
+    background-position: 61% bottom;
+    background-size: 70px auto;
+  }
   .statystic__startup {
     margin-right: 30px;
   }
@@ -5493,11 +5505,14 @@ video {
   }
 }
 @media screen and (max-width: 1024px) {
+  .page__wrapper {
+    background-size: auto 437px, 35px auto;
+  }
   .project__article {
     padding-bottom: 80px;
   }
   .page__wrapper_project {
-    background-size: 300px auto, 60px auto;
+    background-size: 300px auto, 25px auto;
   }
   .intro__header {
     font-size: 54px;
@@ -5708,7 +5723,11 @@ video {
     margin-top: 0 !important;
   }
   .page__wrapper {
-    background-image: url(../images/back_intro_green_mobile.png);
+    background-image: url(../images/back_intro_green_mobile.png) !important;
+    background-size: auto auto !important;
+  }
+  .content__intro {
+    background-size: auto auto !important;
   }
   .header__logo {
     max-width: 87px;
@@ -6453,15 +6472,13 @@ video {
     margin: 0;
   }
   .page__wrapper_project {
-    background-image: url(../images/back_intro_green.png), url(../images/back_intro_red.png);
-    background-size: 200px auto, 60px auto;
+    background-image: url(../images/back_intro_green_mobile.png);
+    background-size: auto auto !important;
   }
   .page__wrapper_project .content__intro {
-    background: none;
-    background-image: url(../images/back_intro_yellow.png);
+    background-image: url(../images/back_intro_red_mobile.png), url(../images/back_intro_yellow_mobile.png);
     background-repeat: no-repeat;
-    background-position: 60% bottom;
-    background-size: 98px auto;
+    background-position: left 0 bottom 18px, right 9% bottom 41px;
     padding: 120px 80px 153px;
     margin-bottom: 60px !important;
   }
