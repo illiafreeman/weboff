@@ -5678,6 +5678,9 @@ video {
   .form__description {
     padding: 0 35px 0 0;
   }
+  .desc__title {
+    margin-bottom: 10px;
+  }
 }
 @media screen and (max-width: 1023px) {
   .statystic__startup-grid {
