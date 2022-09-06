@@ -969,6 +969,7 @@ $transition: all 0.2s ease-in-out;
         background: rgba(255, 255, 255, 0.1);
         border-radius: 40px;
         flex: 0 1 25%;
+        overflow: hidden;
     }
     &__pic{
         display: block;
