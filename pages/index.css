@@ -1443,6 +1443,9 @@ template {
   margin: 0;
   border-right: 3px solid #fff;
 }
+.form__description .form__description-text:last-child {
+  margin-bottom: 0;
+}
 
 .form__description-title {
   font-size: 34px;
@@ -1461,15 +1464,15 @@ template {
   padding: 0;
   margin: 0;
   max-width: 421px;
+  margin-bottom: 20px;
 }
 .form__description-text a {
   color: #ffd508;
-  font-weight: 600;
+  font-weight: 500;
 }
 .form__description-text a:hover {
   text-decoration: none;
 }
-
 .form__container {
   margin: 84px 0 0 98px;
   padding: 0;

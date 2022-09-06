@@ -1475,7 +1475,10 @@ $transition: all 0.2s ease-in-out;
 .form__description {
     padding: 0 81px 0 0;
     margin: 0;
-    border-right: 3px solid #fff
+    border-right: 3px solid #fff;
+    .form__description-text:last-child{
+        margin-bottom: 0;
+    }
 }
 
 .form__description-title {
@@ -1495,12 +1498,16 @@ $transition: all 0.2s ease-in-out;
     padding: 0;
     margin: 0;
     max-width: 421px;
+    margin-bottom: 20px;
     a{
         color: #ffd508;
-        font-weight: 600;
+        font-weight: 500;
         &:hover{
             text-decoration: none;
         }
+    }
+    .soc{
+
     }
 }
 
