@@ -166,9 +166,9 @@ function openSubmitPopup(bool) {
                     arrows: false,
                     centerMode: true,
                     infinite: true,
-                    focusOnSelect: false,
-					variableWidth: false,
-                }
+                    //focusOnSelect: true,
+					//adaptiveHeight: true,
+				}
             }                  
         ]
     });
