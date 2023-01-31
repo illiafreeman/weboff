@@ -2299,6 +2299,100 @@ video {
   border-radius: 75px;
 }
 
+.slider_review {
+  margin-bottom: 44px;
+}
+
+.review {
+  padding: 0 30px;
+}
+.review .slick-track {
+  display: flex;
+}
+.review__item {
+  margin: 0 10px;
+  border: 3px solid #272727;
+  border-radius: 40px;
+  padding: 30px;
+  height: unset;
+  background: #fff;
+  color: #272727;
+}
+.review__picwrap {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.review__picwrap svg {
+  width: 40px;
+  height: 40px;
+  transition: all 0.2s ease-in-out;
+}
+.review__picwrap:hover svg {
+  fill: #65DBBD;
+}
+.review__soc {
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}
+.review__name {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.review__text {
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+}
+
+.slick-prev, .slick-next {
+  padding: 0;
+  border: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slick-prev svg, .slick-next svg {
+  width: 14px;
+  height: 25px;
+  transition: all 0.2s ease-in-out;
+  fill: #272727;
+}
+.slick-prev:before, .slick-prev:after, .slick-next:before, .slick-next:after {
+  display: none;
+}
+.slick-prev:hover svg, .slick-next:hover svg {
+  fill: #000;
+}
+
+.slick-next {
+  right: -36px;
+}
+.slick-next svg {
+  transform: rotate(180deg);
+}
+.slick-next:hover svg {
+  transform: rotate(180deg) translateX(-5px);
+}
+
+.slick-prev {
+  left: -36px;
+}
+.slick-prev:hover svg {
+  transform: translateX(-5px);
+}
+
 /*!
 * animate.css - https://animate.style/
 * Version - 4.1.1

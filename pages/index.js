@@ -154,7 +154,7 @@ function openSubmitPopup(bool) {
         arrows: true,
         centerMode: false,
         variableWidth: false,
-        infinite: false,
+        infinite: true,
         focusOnSelect: false,
         adaptiveHeight: true,
 

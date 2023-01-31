@@ -46,12 +46,12 @@
                 asNavFor: null,
                 prevArrow: `<button class="slick-prev" aria-label="Previous" type="button">
                                 <svg>
-                                    <use xlink:href="./img/sprite.svg#icon-ar"></use>
+                                    <use xlink:href="./images/sprite.svg#icon-ar"></use>
                                 </svg>
                             </button>`,
                 nextArrow: `<button class="slick-next" aria-label="Next" type="button">
                                 <svg>
-                                    <use xlink:href="./img/sprite.svg#icon-ar"></use>
+                                    <use xlink:href="./images/sprite.svg#icon-ar"></use>
                                 </svg>
                             </button>`,
                 autoplay: false,
