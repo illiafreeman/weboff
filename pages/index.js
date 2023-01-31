@@ -148,3 +148,27 @@ function openSubmitPopup(bool) {
 		
 	});
 	$("#phone").mask("+7 (999) 999-99-99");
+	$('#slick').slick({     
+        slidesToShow: 2,
+        dots: true,
+        arrows: true,
+        centerMode: false,
+        variableWidth: false,
+        infinite: false,
+        focusOnSelect: false,
+        adaptiveHeight: true,
+
+        responsive: [
+            {
+            breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    dots: true,
+                    arrows: false,
+                    centerMode: true,
+                    infinite: true,
+                    focusOnSelect: true,
+                }
+            }                  
+        ]
+    });

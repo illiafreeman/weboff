@@ -1,4 +1,6 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+@import '_slick';
+@import '_slick-theme';
 *{
     box-sizing: border-box;
 }
@@ -2002,10 +2004,50 @@ video{
         width: 27px;
     }
 }
-
-
-
-
+.more{
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    font-weight: 300;
+    text-transform: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 118px 12px 0;
+    img{
+        margin-left: 20px;
+        transition: $transition;
+    }
+    &:hover{
+        img{
+            transform: translateX(10px);
+        }
+    }
+}
+.projects__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.comment{
+    .projects__title{
+        color: #272727;
+        .more{
+            color: #272727;
+        }
+    }
+    &__container{
+        margin: 0 118px;
+    }
+}
+.content__comment{
+    position: relative;
+    margin: 0 12px 82px;
+    padding: 1px 0 82px;
+    background-color: #FFD508;
+    border-radius: 75px;
+}
 
 
 
