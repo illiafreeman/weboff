@@ -5967,6 +5967,9 @@ video {
   .footer__form {
     margin: 0;
   }
+  .comment__container {
+    margin: 0;
+  }
 }
 @media screen and (max-width: 1024px) {
   .page__wrapper {
@@ -6859,7 +6862,7 @@ video {
     padding: 17px 26px;
   }
   .content__team {
-    padding: 0 20px 62px;
+    padding: 0 20px 34px;
     background-image: url(../images/bg_team_green.png);
     background-repeat: no-repeat;
     background-position: 95% top;
@@ -7053,11 +7056,14 @@ video {
   }
   .content__comment {
     position: relative;
-    margin: 0 12px 82px;
+    margin: 0 5px 82px;
     padding: 1px 0 72px;
   }
   .slick-dots {
     bottom: -47px;
+  }
+  .slider_team {
+    margin-bottom: 0 !important;
   }
 }
 @media screen and (max-width: 600px) {

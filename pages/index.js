@@ -174,37 +174,30 @@ function openSubmitPopup(bool) {
     });
 	$('#slick2').slick({     
         slidesToShow: 3,
-        dots: true,
+        dots: false,
         arrows: true,
         centerMode: false,
         variableWidth: false,
         infinite: true,
         focusOnSelect: false,
         adaptiveHeight: true,
-
+		slidesToScroll: 3,
         responsive: [
             {
             breakpoint: 768,
                 settings: {
-                    slidesToShow: 1,
-                    dots: true,
-                    arrows: false,
-                    centerMode: true,
-                    infinite: true,
-                    focusOnSelect: true,
+                    slidesToShow: 2,
+					slidesToScroll: 1
+					//centerMode: true,
                 }
             },
 			{
-			breakpoint: 480,
-				settings: {
-					dots: true,
-					arrows: false,
-					slidesToShow: 1,
-					slidesToScroll: 1,
-					variableWidth: false,
-					adaptiveHeight: true,
-
-				}
-			}                  
+			breakpoint: 488,
+                settings: {
+                    slidesToShow: 1,
+					slidesToScroll: 1
+					//centerMode: true,
+                }
+            },
         ]
     });
