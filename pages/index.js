@@ -156,7 +156,6 @@ function openSubmitPopup(bool) {
         variableWidth: false,
         infinite: true,
         focusOnSelect: false,
-        adaptiveHeight: true,
 
         responsive: [
             {
@@ -168,7 +167,7 @@ function openSubmitPopup(bool) {
                     centerMode: true,
                     infinite: true,
                     focusOnSelect: false,
-					variableWidth: true,
+					variableWidth: false,
                 }
             }                  
         ]
@@ -196,16 +195,16 @@ function openSubmitPopup(bool) {
                 }
             },
 			{
-				breakpoint: 480,
-					settings: {
-						dots: true,
-						arrows: false,
-						slidesToShow: 1,
-						slidesToScroll: 1,
-						variableWidth: false,
-						adaptiveHeight: true,
+			breakpoint: 480,
+				settings: {
+					dots: true,
+					arrows: false,
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					variableWidth: false,
+					adaptiveHeight: true,
 
-					}
-				}                  
+				}
+			}                  
         ]
     });
