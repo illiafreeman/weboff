@@ -2044,14 +2044,14 @@ video{
 .content__comment{
     position: relative;
     margin: 0 12px 82px;
-    padding: 1px 0 82px;
+    padding: 1px 0 152px;
     background-color: #FFD508;
     border-radius: 75px;
 }
 .slider {
     &_intro {}
     &_review {
-        margin-bottom: 44px;
+        margin-bottom: 0 !important;
     }
 }
 .review {
@@ -2063,10 +2063,12 @@ video{
         margin: 0 10px;
         border: 3px solid #272727;
         border-radius: 40px;
-        padding: 30px;
+        padding: 52px 32px;
         height: unset;
         background: #fff;
         color: #272727;
+        display: flex !important;
+        flex-direction: column;
     }
     &__picwrap{
         width: 40px;
@@ -2089,21 +2091,21 @@ video{
         display: flex;
         gap: 10px;
         margin-top: 40px;
+        flex-grow: 1;
+        align-items: flex-end;
     }
     &__name {
-        font-size: 18px;
-        line-height: 22px;
-        letter-spacing: 0.04em;
-        text-transform: uppercase;
-        margin-bottom: 16px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 32px;
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
     }
     &__text {
         font-size: 18px;
-        line-height: 21px;
-        letter-spacing: 0.04em;
+        line-height: 24px;
     }
 }
 .slick-prev, .slick-next{
@@ -2149,7 +2151,29 @@ video{
         }
     }
 }
-
+.slick-dots{
+    bottom: -66px;
+    li{
+        width: 16px;
+        height: 16px;
+        margin: 0 12px;
+        button{
+            &:before{
+                display: none;
+            }
+            background: #272727;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            opacity: .3;
+        }
+        &.slick-active{
+            button{
+                opacity: 1;
+            }
+        }
+    }
+}
 
 
 
