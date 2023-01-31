@@ -2429,6 +2429,10 @@ video {
   padding: 0 30px;
 }
 
+.slick-slide {
+  outline: none;
+}
+
 /*!
 * animate.css - https://animate.style/
 * Version - 4.1.1

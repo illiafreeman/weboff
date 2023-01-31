@@ -2184,7 +2184,10 @@ video{
 .team-wrap{
     padding: 0 30px;
 }
-
+.slick-slide {
+    // Remove outline
+    outline: none;
+}
 
 
 
