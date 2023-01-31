@@ -2364,8 +2364,8 @@ video {
   align-items: center;
 }
 .slick-prev svg, .slick-next svg {
-  width: 14px;
-  height: 25px;
+  width: 17px;
+  height: 31px;
   transition: all 0.2s ease-in-out;
   fill: #272727;
 }
