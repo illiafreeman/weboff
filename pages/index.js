@@ -160,6 +160,31 @@ function openSubmitPopup(bool) {
 
         responsive: [
             {
+            breakpoint: 1280,
+                settings: {
+                    slidesToShow: 1,
+                    dots: true,
+                    arrows: false,
+                    centerMode: true,
+                    infinite: true,
+                    focusOnSelect: false,
+					variableWidth: true,
+                }
+            }                  
+        ]
+    });
+	$('#slick2').slick({     
+        slidesToShow: 3,
+        dots: true,
+        arrows: true,
+        centerMode: false,
+        variableWidth: false,
+        infinite: true,
+        focusOnSelect: false,
+        adaptiveHeight: true,
+
+        responsive: [
+            {
             breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
@@ -169,6 +194,18 @@ function openSubmitPopup(bool) {
                     infinite: true,
                     focusOnSelect: true,
                 }
-            }                  
+            },
+			{
+				breakpoint: 480,
+					settings: {
+						dots: true,
+						arrows: false,
+						slidesToShow: 1,
+						slidesToScroll: 1,
+						variableWidth: false,
+						adaptiveHeight: true,
+
+					}
+				}                  
         ]
     });

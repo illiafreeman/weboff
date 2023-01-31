@@ -1401,7 +1401,8 @@ $transition: all 0.2s ease-in-out;
     text-transform: uppercase;
     text-align: center;
     margin: 26px 0 5px;
-    padding: 0
+    padding: 0;
+    color: #FFD508;
 }
 
 .team__member {
@@ -2174,8 +2175,15 @@ video{
         }
     }
 }
-
-
+.slider_team{
+    margin-bottom: 102px !important;
+    .slick-prev svg, .slick-next svg {
+        fill: #fff;
+    }
+}
+.team-wrap{
+    padding: 0 30px;
+}
 
 
 
