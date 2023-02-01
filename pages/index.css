@@ -605,7 +605,6 @@ template {
 }
 
 .header__menu {
-  min-width: 493px;
   margin: 40px 130px 0 0;
 }
 .header__menu_min {

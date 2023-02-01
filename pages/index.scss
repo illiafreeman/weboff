@@ -359,7 +359,7 @@ $transition: all 0.2s ease-in-out;
     transition: color .3s, background-color .3s
 }
 .header__menu {
-    min-width: 493px;
+    //min-width: 493px;
     margin: 40px 130px 0 0;
     &_min{
         min-width: auto;
