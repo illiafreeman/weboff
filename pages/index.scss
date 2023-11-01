@@ -2496,6 +2496,9 @@ body.oh {
                     fill: #fff;
                 }
             }
+            &.slick-disabled{
+                display: none !important;
+            }
         }
         .slick-next{
             right: -65px;

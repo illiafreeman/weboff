@@ -2702,6 +2702,9 @@ body.oh {
 .slider_pro .slick-prev:hover svg, .slider_pro .slick-next:hover svg {
   fill: #fff;
 }
+.slider_pro .slick-prev.slick-disabled, .slider_pro .slick-next.slick-disabled {
+  display: none !important;
+}
 .slider_pro .slick-next {
   right: -65px;
 }

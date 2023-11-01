@@ -80,12 +80,12 @@ $(window).on("load", function () {
 
 });
 $('#pro').slick({
-	slidesToShow: 3,
+	slidesToShow: 2.5,
 	dots: false,
 	arrows: true,
 	centerMode: false,
 	variableWidth: false,
-	infinite: true,
+	infinite: false,
 	focusOnSelect: false,
 	prevArrow: `<button class="slick-prev" aria-label="Previous" type="button">
 		<svg>
