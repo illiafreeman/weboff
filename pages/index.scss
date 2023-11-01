@@ -2283,7 +2283,7 @@ video{
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    transition: $transition;
+    transition: background-color .3s;
     cursor: pointer;
     span{
         text-align: center;
