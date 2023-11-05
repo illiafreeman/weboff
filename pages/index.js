@@ -191,23 +191,28 @@ $('#slick2').slick({
 	]
 });
 function modal() {
-	$('body').addClass('oh');
+	var offset = window.innerWidth - document.body.offsetWidth ;
+	$('body').addClass('oh').css({'padding-right': offset, 'transition': 'all 0.5s ease-in-out;'});
 	$('.modal-bg').addClass('vis');
 	$('.modal-wrap').addClass('vis');
 	$('.modal[data-attr="modal_form"]').addClass('vis');
+	$('.scrollTop.vis').css({'right': 30 + offset + 'px'});
+	console.log(offset);
 }
 $('.modal_btn').click(modal);
 
 $('.modal').on('click', function (e) {
 	e.stopPropagation();
 });
-
-$('.modal-wrap, .modal__close').on('click', function (e) {
-	$('body').removeClass('oh');
+$(document).on('click','.modal__close, .modal-wrap',function(){
+	var offset = window.innerWidth - document.body.offsetWidth;
+	$('body').removeClass('oh').css({'padding-right': offset, 'transition': 'all 0.5s ease-in-out;'});
 	$('.modal-bg').removeClass('vis');
 	$('.modal-wrap').removeClass('vis');
-	$('.modal').removeClass('vis');
+	$('.scrollTop.vis').css({'right': 30 + offset + 'px'});
+	console.log(offset);
 });
+
 $('.cookie__close, .cookie__body .btn').on('click', function (e) {
 	$('.cookie').addClass('unvis');
 });
