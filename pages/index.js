@@ -81,11 +81,11 @@ $(window).on("load", function () {
 });
 $('#pro').slick({
 	slidesToShow: 2.5,
+	centerMode: false,
+	infinite: false,
 	dots: false,
 	arrows: true,
-	centerMode: false,
 	variableWidth: false,
-	infinite: false,
 	focusOnSelect: false,
 	prevArrow: `<button class="slick-prev" aria-label="Previous" type="button">
 		<svg>
@@ -101,9 +101,9 @@ $('#pro').slick({
 		{
 			breakpoint: 1280,
 			settings: {
-				slidesToShow: 2,
-				centerMode: true,
-				infinite: true,
+				slidesToShow: 2.5,
+				centerMode: false,
+				infinite: false,
 				//focusOnSelect: true,
 				//adaptiveHeight: true,
 			}
@@ -111,9 +111,9 @@ $('#pro').slick({
 		{
 			breakpoint: 768,
 			settings: {
-				slidesToShow: 1,
-				slidesToScroll: 1,
-				centerMode: true,
+				slidesToShow: 1.5,
+				centerMode: false,
+				infinite: false,
 				arrows: false,
 			}
 		},
