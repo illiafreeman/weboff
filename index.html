@@ -462,7 +462,13 @@
         Все остальное мы берем на себя, чтобы вы могли сконцентрироваться на своем бизнесе.</h3>
     <div class="stage__list">
         <div class="stage__item">
-            <img class="stage__pic" src="./img/how_1.png" srcset="./img/how_1.png 1x, ./img/how_1@2x.png 2x" alt="">
+			<!-- <picture>
+				<img class="stage__pic" src="./img/how_1.png" srcset="./img/how_1@2x.png 2x, ./img/how_1@2x.png 320w" alt="">
+			</picture> -->
+            <picture>
+				<source media="(max-width: 1024px)" srcset="./img/how_2@2x.png">
+				<img class="stage__pic" src="./img/how_1.png" srcset="./img/how_3@2x.png 2x" alt="Flowers">
+			  </picture>
             <h4 class="stage__title">1.Маркетинговый<br>анализ</h4>
             <ul class="stage__desc">
                 <li>Мы проводим c вами созвон в Zoom</li>
