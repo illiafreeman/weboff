@@ -80,7 +80,7 @@ $(window).on("load", function () {
 
 });
 $('#pro').slick({
-	slidesToShow: 2.5,
+	slidesToShow: 3,
 	centerMode: false,
 	infinite: false,
 	dots: false,
@@ -101,7 +101,7 @@ $('#pro').slick({
 		{
 			breakpoint: 1280,
 			settings: {
-				slidesToShow: 2.5,
+				slidesToShow: 3,
 				centerMode: false,
 				infinite: false,
 				//focusOnSelect: true,
@@ -111,7 +111,7 @@ $('#pro').slick({
 		{
 			breakpoint: 768,
 			settings: {
-				slidesToShow: 1.5,
+				slidesToShow: 1,
 				centerMode: false,
 				infinite: false,
 				arrows: false,
@@ -197,7 +197,7 @@ function modal() {
 	$('.modal-wrap').addClass('vis');
 	$('.modal[data-attr="modal_form"]').addClass('vis');
 	$('.scrollTop.vis').css({'right': 30 + offset + 'px'});
-	console.log(offset);
+	//console.log(offset);
 }
 $('.modal_btn').click(modal);
 
@@ -210,7 +210,7 @@ $(document).on('click','.modal__close, .modal-wrap',function(){
 	$('.modal-bg').removeClass('vis');
 	$('.modal-wrap').removeClass('vis');
 	$('.scrollTop.vis').css({'right': 30 + offset + 'px'});
-	console.log(offset);
+	//console.log(offset);
 });
 
 $('.cookie__close, .cookie__body .btn').on('click', function (e) {

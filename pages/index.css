@@ -673,15 +673,15 @@ template {
   max-width: 690px;
   margin: 0 0 28px 0;
   padding: 0;
-  font-size: 82px;
-  line-height: 74px;
+  font-size: 36px;
+  line-height: 1.4;
   text-transform: uppercase;
   margin-bottom: 0;
 }
 
 .intro__subheader {
   color: #FFF;
-  font-size: 45px;
+  font-size: 54px;
   font-style: normal;
   font-weight: 700;
   line-height: 74px;
@@ -704,7 +704,7 @@ template {
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px;
+  line-height: 36px;
   margin-bottom: 54px;
   width: 460px;
 }
@@ -1079,7 +1079,7 @@ template {
 }
 
 .offer__we-offer {
-  margin: 0 112px;
+  margin: 0 90px 0 112px;
   max-width: 580px;
   display: flex;
   align-items: center;
@@ -1097,7 +1097,7 @@ template {
 .offer__title_adv {
   font-size: 78px;
   line-height: 90px;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .offer__title_adv strong {
   font-weight: 700;
@@ -1109,7 +1109,7 @@ template {
   font-style: normal;
   font-weight: 500;
   line-height: 32px;
-  margin: 16px 0 0;
+  margin: 40px 0 0;
   padding: 0;
   max-width: 530px;
 }
@@ -1145,7 +1145,7 @@ template {
 .offer__list-container {
   padding: 0;
   margin: 70px 0 70px 10px;
-  max-width: 425px;
+  max-width: 450px;
 }
 
 .offer__list {
@@ -2367,6 +2367,20 @@ video {
 .review__text {
   font-size: 18px;
   line-height: 24px;
+  height: 320px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+.review__text:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to bottom, rgba(125, 185, 232, 0) 0%, rgb(255, 255, 255) 100%);
+  bottom: 0;
+  left: 0px;
 }
 .review__text span:hover {
   text-decoration: none;
@@ -3290,6 +3304,12 @@ body.oh {
 }
 .inner__content ul:last-child {
   margin: 0;
+}
+
+.btn_min {
+  font-size: 17px;
+  font-weight: 600;
+  height: 47px;
 }
 
 /*!
