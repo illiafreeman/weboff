@@ -738,7 +738,8 @@ $transition05: all 0.5s ease-in-out;
     padding: 0;
     min-width: 434px;
     font-size: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    opacity: .34;
 }
 
 .statystic__sites-grid-empty_left {
@@ -2365,7 +2366,7 @@ video{
     background: #fff;
     margin: 40px auto 40px;
     border-radius: 75px;
-    box-shadow: 0px 0px 69px 5px #fff;
+    box-shadow: 0px 0px 69px 5px #fff, 0px 1px 7px -3px #000 inset;
     display: none;
     &.vis{
         display: block;
@@ -3119,8 +3120,23 @@ body.oh {
     font-weight: 600;
     height: 47px;
 }
-
-
+.modal__body{
+    .review__item-inner *{
+        color: #272727;
+    }
+    .review__text {
+        font-size: 18px;
+        line-height: 24px;
+        height: auto;
+        cursor: default;
+        &:after{
+            display: none;
+        }
+    }
+}
+.modal[data-attr="modal_review"] {
+    width: 600px;
+}
 
 
 

@@ -982,6 +982,7 @@ template {
   min-width: 434px;
   font-size: 0;
   box-sizing: border-box;
+  opacity: 0.34;
 }
 
 .statystic__sites-grid-empty_left {
@@ -2578,7 +2579,7 @@ video {
   background: #fff;
   margin: 40px auto 40px;
   border-radius: 75px;
-  box-shadow: 0px 0px 69px 5px #fff;
+  box-shadow: 0px 0px 69px 5px #fff, 0px 1px 7px -3px #000 inset;
   display: none;
 }
 .modal.vis {
@@ -3310,6 +3311,23 @@ body.oh {
   font-size: 17px;
   font-weight: 600;
   height: 47px;
+}
+
+.modal__body .review__item-inner * {
+  color: #272727;
+}
+.modal__body .review__text {
+  font-size: 18px;
+  line-height: 24px;
+  height: auto;
+  cursor: default;
+}
+.modal__body .review__text:after {
+  display: none;
+}
+
+.modal[data-attr=modal_review] {
+  width: 600px;
 }
 
 /*!
