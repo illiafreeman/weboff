@@ -2878,6 +2878,9 @@ body.oh {
         line-height: 120%;
         text-transform: uppercase; 
         margin: 0 0 34px;
+        span{
+            display: block;
+        }
     }
     &__text {
         color: #272727;

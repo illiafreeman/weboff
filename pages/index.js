@@ -65,7 +65,7 @@ $(window).on("load", function () {
 		anchorPlacement: 'top-bottom',
 		easing: 'ease-in-out',
 		duration: 500,
-		offset: 100
+		offset: 50
 	});
 
 });
