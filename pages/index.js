@@ -67,21 +67,6 @@ $(window).on("load", function () {
 		duration: 500,
 		offset: 100
 	});
-	// if ($(window).width() > 1023) {
-	// 	new WOW().init();
-	// }
-
-	// $('.string').liMarquee({
-	// 	hoverStop: false
-	// });
-
-
-
-	// $('.string').marquee({
-	// 	duplicated: true
-	// });
-
-
 
 });
 $('#pro').slick({
@@ -93,15 +78,15 @@ $('#pro').slick({
 	variableWidth: false,
 	focusOnSelect: false,
 	prevArrow: `<button class="slick-prev" aria-label="Previous" type="button">
-		<svg>
-			<use xlink:href="./images/sprite.svg#icon-ar"></use>
-		</svg>
-			</button>`,
+					<svg>
+						<use xlink:href="./images/sprite.svg#icon-ar"></use>
+					</svg>
+				</button>`,
 	nextArrow: `<button class="slick-next" aria-label="Next" type="button">
-				<svg>
-					<use xlink:href="./images/sprite.svg#icon-ar"></use>
-				</svg>
-			</button>`,
+					<svg>
+						<use xlink:href="./images/sprite.svg#icon-ar"></use>
+					</svg>
+				</button>`,
 	responsive: [
 		{
 			breakpoint: 1400,
@@ -132,15 +117,15 @@ $('#slick').slick({
 	infinite: true,
 	focusOnSelect: false,
 	prevArrow: `<button class="slick-prev" aria-label="Previous" type="button">
-		<svg>
-			<use xlink:href="./images/sprite.svg#icon-ar"></use>
-		</svg>
-			</button>`,
+					<svg>
+						<use xlink:href="./images/sprite.svg#icon-ar"></use>
+					</svg>
+				</button>`,
 	nextArrow: `<button class="slick-next" aria-label="Next" type="button">
-				<svg>
-					<use xlink:href="./images/sprite.svg#icon-ar"></use>
-				</svg>
-			</button>`,
+					<svg>
+						<use xlink:href="./images/sprite.svg#icon-ar"></use>
+					</svg>
+				</button>`,
 	responsive: [
 		{
 			breakpoint: 1280,
@@ -166,14 +151,14 @@ $('#slick2').slick({
 	focusOnSelect: false,
 	adaptiveHeight: true,
 	prevArrow: `<button class="slick-prev" aria-label="Previous" type="button">
-		<svg>
-			<use xlink:href="./images/sprite.svg#icon-ar"></use>
-		</svg>
-			</button>`,
+					<svg>
+						<use xlink:href="./images/sprite.svg#icon-ar"></use>
+					</svg>
+				</button>`,
 	nextArrow: `<button class="slick-next" aria-label="Next" type="button">
-				<svg>
-					<use xlink:href="./images/sprite.svg#icon-ar"></use>
-				</svg>
+					<svg>
+						<use xlink:href="./images/sprite.svg#icon-ar"></use>
+					</svg>
 			</button>`,
 	responsive: [
 		{
