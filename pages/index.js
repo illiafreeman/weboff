@@ -61,7 +61,12 @@ $(window).on("load", function () {
 		delayBetweenCycles: 0,
 		handleHover: false
 	});
-
+	AOS.init({
+		anchorPlacement: 'top-bottom',
+		easing: 'ease-in-out',
+		duration: 200,
+		offset: 200
+	});
 	// if ($(window).width() > 1023) {
 	// 	new WOW().init();
 	// }
