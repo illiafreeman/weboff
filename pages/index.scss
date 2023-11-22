@@ -1870,7 +1870,7 @@ to {
     animation: rotating 5s linear infinite;
 }
 .marquee{
-    h1{
+    h3{
         display: inline-block;
         margin: 0 20px;
         height: 62px;
@@ -2734,7 +2734,7 @@ body.oh {
         margin: 0 0 6px;
         color: #272727;
         text-align: center;
-        font-size: 24px;
+        font-size: 23px;
         font-weight: 700;
         text-transform: uppercase; 
     }
@@ -3138,6 +3138,28 @@ body.oh {
 .modal[data-attr="modal_review"] {
     width: 600px;
 }
+.statystic__web-agency-data {
+    margin: 0;
+    padding: 0;
+    max-width: none;
+    min-width: 350px;
+    max-width: 350px;
+}
+.statystic__web-agency-arrowwrap{
+    flex: 1 1 200px;
+    margin: 0 52px 0 0;
+    display: flex;
+    align-items: center;
+}
+.statystic__web-agency-arrow {
+    object-fit: contain;
+    max-width: none;
+    margin: 0;
+    width: 100%;
+}
+.statystic__web-agency-arrow {
+    width: 100%;
+}
 
 
 
@@ -3196,10 +3218,4 @@ body.oh {
 
 
 
-
-
-
-
-
-@import '_animate';
 @import '_query';

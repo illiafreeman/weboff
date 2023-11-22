@@ -62,9 +62,9 @@ $(window).on("load", function () {
 		handleHover: false
 	});
 
-	if ($(window).width() > 1023) {
-		new WOW().init();
-	}
+	// if ($(window).width() > 1023) {
+	// 	new WOW().init();
+	// }
 
 	// $('.string').liMarquee({
 	// 	hoverStop: false
@@ -99,11 +99,10 @@ $('#pro').slick({
 			</button>`,
 	responsive: [
 		{
-			breakpoint: 1280,
+			breakpoint: 1400,
 			settings: {
 				slidesToShow: 3,
 				centerMode: false,
-				infinite: false,
 				//focusOnSelect: true,
 				//adaptiveHeight: true,
 			}
