@@ -2579,7 +2579,7 @@ video {
   background: #fff;
   margin: 40px auto 40px;
   border-radius: 75px;
-  box-shadow: 0px 0px 69px 5px #fff, 0px 1px 7px -3px #000 inset;
+  box-shadow: 0px 0px 69px 5px #fff, 0px 1px 13px -9px #000 inset;
   display: none;
 }
 .modal.vis {
@@ -2922,51 +2922,51 @@ body.oh {
 }
 .price__head {
   background: #FFD508;
-  padding: 14px 22px;
+  padding: 34px 22px 20px;
 }
 .price__name {
-  margin: 0;
+  margin: 0 0 6px;
   color: #272727;
   text-align: center;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
 }
 .price__subname {
   margin: 0;
   color: #272727;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
   text-align: center;
 }
 .price__desc {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
-  line-height: 22px;
-  min-height: 146px;
+  line-height: 21px;
+  min-height: 140px;
 }
 .price__body {
   padding: 32px 32px 24px 16px;
   flex-grow: 1;
 }
 .price__for {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
   line-height: 122.222%; /* 122.222% */
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 .price__list {
   margin: 0;
   padding-left: 25px;
 }
 .price__list li {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
-  line-height: 22px;
-  margin-bottom: 20px;
+  line-height: 21px;
+  margin-bottom: 18px;
   position: relative;
   list-style-type: none;
 }
@@ -3080,12 +3080,13 @@ body.oh {
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 140%;
+  line-height: 135%;
   text-transform: uppercase;
   margin: 0 0 20px;
 }
 .step__text a {
   color: #272727;
+  display: inline-block;
 }
 .step__text a:hover {
   text-decoration: none;

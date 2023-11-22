@@ -82,7 +82,7 @@ $(window).on("load", function () {
 $('#pro').slick({
 	slidesToShow: 3,
 	centerMode: false,
-	infinite: false,
+	infinite: true,
 	dots: false,
 	arrows: true,
 	variableWidth: false,
@@ -217,6 +217,17 @@ $(document).on('click','.modal__close, .modal-wrap',function(){
 $(document).on('click','.modal',function(e){
 	e.stopPropagation();
 	
+});
+$(document).keydown(function(event) { 
+	if (event.keyCode == 27) { 
+		var offset = window.innerWidth - document.body.offsetWidth;
+		$('body').removeClass('oh').css({'padding-right': offset, 'transition': 'all 0.5s ease-in-out;'});
+		$('.modal-bg').removeClass('vis');
+		$('.modal-wrap').removeClass('vis');
+		$('.modal').removeClass('vis');
+		$('.scrollTop.vis').css({'right': 30 + offset + 'px'});
+		$('.modal[data-attr="modal_review"] .modal__body .review__item-inner').remove();
+	}
 });
 
 $(document).on('click','.review__item .review__text',function(){
