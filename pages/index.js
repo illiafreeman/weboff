@@ -64,8 +64,8 @@ $(window).on("load", function () {
 	AOS.init({
 		anchorPlacement: 'top-bottom',
 		easing: 'ease-in-out',
-		duration: 200,
-		offset: 200
+		duration: 500,
+		offset: 100
 	});
 	// if ($(window).width() > 1023) {
 	// 	new WOW().init();
