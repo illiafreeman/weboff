@@ -3,16 +3,16 @@ const introHeaderElement = document.querySelector('.intro__header');
 const introSubHeaderElement = document.querySelector('.intro__subheader');
 const introBtn = document.querySelector('.intro__btn');
 const introTextElement = document.querySelector('.intro__text');
-const burgerButton = document.querySelector('.header__burger');
-const closeButton = document.querySelector('.header__close-button');
+//const burgerButton = document.querySelector('.header__burger');
+//const closeButton = document.querySelector('.header__close-button');
 const closeLink = document.querySelectorAll('.header__menu-list-link');
 const menu = document.querySelector('.header__menu');
 
-burgerButton.addEventListener('click', handleOpenMenu);
-for (var i = 0; i < closeLink.length; i++) {
-	closeLink[i].addEventListener("click", handleCloseMenu);
-}
-closeButton.addEventListener('click', handleCloseMenu);
+// burgerButton.addEventListener('click', handleOpenMenu);
+// for (var i = 0; i < closeLink.length; i++) {
+// 	closeLink[i].addEventListener("click", handleCloseMenu);
+// }
+// closeButton.addEventListener('click', handleCloseMenu);
 
 
 function handleOpenMenu() {
@@ -20,8 +20,8 @@ function handleOpenMenu() {
 	introSubHeaderElement.classList.add('intro__subheader_display-none');
 	introBtn.classList.add('intro__btn_display-none');
 	introTextElement.classList.add('intro__text_display-none');
-	burgerButton.classList.add('header__burger_invisible');
-	closeButton.classList.add('header__close-button_visible');
+	//burgerButton.classList.add('header__burger_invisible');
+	//closeButton.classList.add('header__close-button_visible');
 	menu.classList.add('header__menu_visible');
 }
 
@@ -30,8 +30,8 @@ function handleCloseMenu() {
 	introSubHeaderElement.classList.remove('intro__subheader_display-none');
 	introBtn.classList.remove('intro__btn_display-none');
 	introTextElement.classList.remove('intro__text_display-none');
-	burgerButton.classList.remove('header__burger_invisible');
-	closeButton.classList.remove('header__close-button_visible');
+	//burgerButton.classList.remove('header__burger_invisible');
+	//closeButton.classList.remove('header__close-button_visible');
 	menu.classList.remove('header__menu_visible');
 }
 
@@ -52,7 +52,20 @@ $(scrollTop).click(function () {
 	return false;
 });
 /*end scroll to top*/
-
+$('.header__btn').click(function () {
+	$(this).toggleClass('close');
+	$('body').toggleClass('oh');
+	$('.hamburger').toggleClass('open');
+	$('.intro.content__intro').toggleClass('hidden');
+	$('.header__menu').toggleClass('vis');
+});
+$('.header__menu li a').click(function () {
+	$('.header__btn').removeClass('close');
+	$('body').removeClass('oh');
+	$('.hamburger').removeClass('open');
+	$('.intro.content__intro').removeClass('hidden');
+	$('.header__menu').removeClass('vis');
+})
 
 $(window).on("load", function () {
 	$('.marquee').simplemarquee({

@@ -3163,9 +3163,66 @@ body.oh {
 .statystic__web-agency-arrow {
     width: 100%;
 }
+[data-aos] {
+    pointer-events: all;
+}
 
-
-
+// hamburger
+.header__btn {
+    width: 60px;
+    height: 60px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-1px, 26px);
+    cursor: pointer;
+}
+.hamburger {
+    width: 24px;
+    height: 18px;
+    position: relative;
+    transform: rotate(0deg);
+    transition: .5s ease-in-out;
+}
+.hamburger span:first-child {
+    top: 0;
+    transform-origin: left center;
+}
+.hamburger span:nth-child(2) {
+    top: 8px;
+    transform-origin: left center;
+}
+.hamburger span:nth-child(3) {
+    top: 16px;
+    transform-origin: left center;
+}
+.hamburger span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+.hamburger.open span:first-child {
+    transform: rotate(45deg);
+    top: 0;
+    left: 4px;
+}
+.hamburger.open span:nth-child(2) {
+    width: 0;
+    opacity: 0;
+}
+.hamburger.open span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 17px;
+    left: 4px;
+}
+// end hamburger
 
 
 
