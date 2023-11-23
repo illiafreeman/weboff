@@ -5498,10 +5498,20 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
     align-items: flex-start;
     z-index: 100;
   }
+  .intro.content__intro * {
+    transition: all 0.2s ease-in-out;
+  }
   .intro.content__intro .aos-init.aos-animate {
     transition: all 0.2s ease-in-out;
   }
+  .intro.content__intro .aos-init.aos-animate * {
+    transition: all 0.2s ease-in-out;
+  }
   .intro.content__intro.hidden .aos-init.aos-animate {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .intro.content__intro.hidden * {
     opacity: 0;
     visibility: hidden;
   }

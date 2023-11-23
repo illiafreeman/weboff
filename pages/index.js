@@ -77,6 +77,7 @@ $(window).on("load", function () {
 		handleHover: false
 	});
 	AOS.init({
+		disable: 'mobile',
 		anchorPlacement: 'top-bottom',
 		easing: 'ease-in-out',
 		duration: 500,
