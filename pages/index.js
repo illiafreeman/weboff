@@ -58,6 +58,8 @@ $('.header__btn').click(function () {
 	$('.hamburger').toggleClass('open');
 	$('.intro.content__intro').toggleClass('hidden');
 	$('.header__menu').toggleClass('vis');
+
+	
 });
 $('.header__menu li a').click(function () {
 	$('.header__btn').removeClass('close');
