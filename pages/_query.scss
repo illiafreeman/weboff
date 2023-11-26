@@ -601,11 +601,11 @@
         padding-top: 41px;
     }
     .price__name {
-        font-size: 26px;
-        line-height: 140%;
+        //font-size: 26px;
+        //line-height: 140%;
     }
     .price__subname {
-        font-size: 20px;
+        //font-size: 20px;
     }
     .price__desc {
         min-height: 220px;
@@ -615,11 +615,14 @@
     }
     .price__list li {
         font-size: 16px;
-        margin-bottom: 16px;
+        margin-bottom: 12px;
     }
     .price__list {
         margin: 0;
         padding-left: 17px;
+    }
+    .price__list_for {
+        margin-bottom: 30px;
     }
     .gift__title {
         font-size: 32px;

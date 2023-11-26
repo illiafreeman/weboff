@@ -2981,7 +2981,7 @@ body.oh {
   padding-left: 25px;
 }
 .price__list_for {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .price__list li {
   font-size: 17px;
@@ -5083,13 +5083,6 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   .container_contact {
     padding-top: 41px;
   }
-  .price__name {
-    font-size: 26px;
-    line-height: 140%;
-  }
-  .price__subname {
-    font-size: 20px;
-  }
   .price__desc {
     min-height: 220px;
   }
@@ -5098,11 +5091,14 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   }
   .price__list li {
     font-size: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
   }
   .price__list {
     margin: 0;
     padding-left: 17px;
+  }
+  .price__list_for {
+    margin-bottom: 30px;
   }
   .gift__title {
     font-size: 32px;
