@@ -2728,24 +2728,42 @@ body.oh {
     }
     &__head {
         background: #FFD508;
-        padding: 34px 22px 20px;
+        padding: 0px 22px 0px;
+        position: relative;
+        height: 108px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     &__name {
-        margin: 0 0 6px;
+        margin: 0;
         color: #272727;
         text-align: center;
         font-size: 23px;
         font-weight: 700;
         text-transform: uppercase; 
+        span{
+            font-size: 12px;
+            font-weight: 500;
+            display: block;
+        }
     }
     &__subname{
         margin: 0;
         color: #272727;
-        font-size: 18px;
-        font-weight: 400;
+        font-size: 16px;
+        font-weight: 500;
         line-height: normal;
         text-transform: uppercase;
         text-align: center;
+        position: absolute;
+        bottom: -18px;
+        left: 50%;
+        background: #FFD508;
+        padding: 8px 20px;
+        border-radius: 18px;
+        transform: translateX(-50%);
+        white-space: nowrap;
     }
     &__desc {
         font-size: 17px;
@@ -2767,6 +2785,9 @@ body.oh {
     &__list {
         margin: 0;
         padding-left: 25px;
+        &_for{
+            margin-bottom: 40px;
+        }
         li{
             font-size: 17px;
             font-weight: 500;
