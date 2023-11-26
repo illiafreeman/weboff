@@ -163,7 +163,7 @@ $('#slick').slick({
 		{
 			breakpoint: 1280,
 			settings: {
-				slidesToShow: 1,
+				slidesToShow: 2,
 				dots: true,
 				arrows: false,
 				centerMode: true,
