@@ -5146,6 +5146,14 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
   .statystic__sites-grid-empty {
     min-width: auto;
     width: 300px;
+    border-width: 2px;
+  }
+  .statystic__sites-grid-empty_left {
+    width: 50%;
+  }
+  .statystic__sites-grid {
+    -moz-column-gap: 30px;
+         column-gap: 30px;
   }
 }
 @media screen and (max-width: 1024px) {

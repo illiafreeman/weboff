@@ -131,9 +131,18 @@ $('#pro').slick({
 			}
 		},
 		{
+			breakpoint: 1280,
+			settings: {
+				slidesToShow: 2,
+				centerMode: false,
+				//focusOnSelect: true,
+				//adaptiveHeight: true,
+			}
+		},
+		{
 			breakpoint: 768,
 			settings: {
-				slidesToShow: 1,
+				slidesToShow: 1.5,
 				centerMode: false,
 				infinite: false,
 				arrows: false,

@@ -671,6 +671,13 @@
     .statystic__sites-grid-empty{
         min-width: auto;
         width: 300px;
+        border-width: 2px;
+    }
+    .statystic__sites-grid-empty_left{
+        width: 50%;
+    }
+    .statystic__sites-grid{
+        column-gap: 30px;
     }
 }
 
