@@ -2966,7 +2966,7 @@ body.oh {
   min-height: 140px;
 }
 .price__body {
-  padding: 32px 32px 24px 16px;
+  padding: 50px 32px 24px 16px;
   flex-grow: 1;
 }
 .price__for {
@@ -2981,7 +2981,7 @@ body.oh {
   padding-left: 25px;
 }
 .price__list_for {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 .price__list li {
   font-size: 17px;
