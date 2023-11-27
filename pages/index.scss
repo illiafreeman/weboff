@@ -631,7 +631,8 @@ $transition05: all 0.5s ease-in-out;
 }
 .statystic__questions {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .statystic__startup {
@@ -684,7 +685,7 @@ $transition05: all 0.5s ease-in-out;
 
 .statystic__sites {
     display: flex;
-    margin: 0 40px 0 0;
+    margin: 0;
     padding: 0;
     max-width: 577px;
     font-size: 0
@@ -697,12 +698,12 @@ $transition05: all 0.5s ease-in-out;
     max-width: 531px;
     text-transform: uppercase;
     padding: 0;
-    margin: 0
+    margin: 0 0 44px;
 }
 
 .statystic__sites-grid {
     display: grid;
-    margin: 44px 0 0;
+    margin: 0;
     padding: 0;
     max-width: 100%;
     grid-template-columns: 90px 1fr;
@@ -789,7 +790,7 @@ $transition05: all 0.5s ease-in-out;
 
 .statystic__web-agency {
     display: flex;
-    margin: 80px 0 0;
+    margin: 0;
     padding: 0;
     justify-content: flex-start
 }
@@ -3171,7 +3172,7 @@ body.oh {
 }
 .statystic__web-agency-arrowwrap{
     flex: 1 1 200px;
-    margin: 0 52px 0 0;
+    margin: 0;
     display: flex;
     align-items: center;
 }
@@ -3187,7 +3188,6 @@ body.oh {
 [data-aos] {
     pointer-events: all;
 }
-
 // hamburger
 .header__btn {
     width: 60px;
@@ -3299,5 +3299,7 @@ body.oh {
 
 
 
-@import '_aos';
+
+
+//@import '_aos';
 @import '_query';

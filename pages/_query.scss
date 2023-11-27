@@ -54,7 +54,7 @@
         width: 100%;
     }
     .statystic__web-agency-data{
-        max-width: none;
+        max-width: 250px;
         flex: 1 0 300px;
     }
     .content__comment {
@@ -670,11 +670,14 @@
     }
     .statystic__sites-grid-empty{
         min-width: auto;
-        width: 300px;
+        width: 100%;
+        min-width: 340px;
         border-width: 2px;
+        min-height: 20px;
     }
     .statystic__sites-grid-empty_left{
         width: 50%;
+        min-width: auto;
     }
     .statystic__sites-grid{
         column-gap: 30px;

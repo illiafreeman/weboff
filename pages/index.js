@@ -105,7 +105,7 @@ $(window).on("load", function () {
 $('#pro').slick({
 	slidesToShow: 3,
 	centerMode: false,
-	infinite: true,
+	infinite: false,
 	dots: false,
 	arrows: true,
 	variableWidth: false,
@@ -122,12 +122,12 @@ $('#pro').slick({
 				</button>`,
 	responsive: [
 		{
-			breakpoint: 1400,
+			breakpoint: 768,
 			settings: {
-				slidesToShow: 3,
+				slidesToShow: 1.5,
 				centerMode: false,
-				//focusOnSelect: true,
-				//adaptiveHeight: true,
+				infinite: false,
+				arrows: false,
 			}
 		},
 		{
@@ -140,14 +140,16 @@ $('#pro').slick({
 			}
 		},
 		{
-			breakpoint: 768,
+			breakpoint: 1400,
 			settings: {
-				slidesToShow: 1.5,
+				slidesToShow: 3,
 				centerMode: false,
-				infinite: false,
-				arrows: false,
+				//focusOnSelect: true,
+				//adaptiveHeight: true,
 			}
 		},
+		
+		
 	]
 });
 $('#slick').slick({
