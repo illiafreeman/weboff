@@ -2564,10 +2564,8 @@ body.oh {
     }
     &__pic {
         width: 100%;
-        
         transition: $transition;
         border-radius: 34px;
-        overflow: hidden;
     }
     &__item {
         display: flex !important;

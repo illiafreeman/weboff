@@ -2764,7 +2764,6 @@ body.oh {
   width: 100%;
   transition: all 0.2s ease-in-out;
   border-radius: 34px;
-  overflow: hidden;
 }
 .pro__item {
   display: flex !important;
